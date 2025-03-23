@@ -1,13 +1,1 @@
-[
-    {
-        "name": "TV",
-        "price": 200
-    },
-    {
-        "name": "PS5",
-        "price": 201
-    },{
-        "name" : "XBOX",
-        "price" : 300
-    }
-]
+[{"id":1,"name":"TV","price":200,"stock":10},{"id":2,"name":"PS5","price":201,"stock":5},{"id":3,"name":"XBOX","price":300,"stock":8},{"id":4,"name":"Iphone 12","price":450,"stock":3},{"id":5,"name":"Xiaomi Redmi Note 11 PRO","price":300,"stock":20}]
