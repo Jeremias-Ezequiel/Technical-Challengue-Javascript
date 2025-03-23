@@ -1,0 +1,13 @@
+[
+    {
+        "name": "TV",
+        "price": 200
+    },
+    {
+        "name": "PS5",
+        "price": 201
+    },{
+        "name" : "XBOX",
+        "price" : 300
+    }
+]
