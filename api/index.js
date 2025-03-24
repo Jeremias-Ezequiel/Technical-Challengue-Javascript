@@ -1,5 +1,4 @@
 import http from "node:http";
-import fs from "node:fs/promises";
 import path from "node:path";
 import { loadFile, updateFile } from "./utils/manageFile.js";
 import { Log } from "./utils/manageLogFile.js";
@@ -12,22 +11,42 @@ const ordersPath = path.join("data", "orders.json");
 
 const server = http.createServer((req, res) => {
   const { method, url } = req;
+
   res.setHeader("Content-Type", "application/json");
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "GET, POST, PUT, DELETE, OPTIONS"
+  );
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
   switch (method) {
     case "GET":
       switch (url) {
         case "/products":
-          loadFile(productsPath).then(
-            (response) => res.end(JSON.stringify(response)),
-            (res.statusCode = 200)
-          );
+          loadFile(productsPath)
+            .then((response) => {
+              res.statusCode = 200;
+              res.end(JSON.stringify(response));
+            })
+            .catch((err) => {
+              res.statusCode = 500;
+              res.end(
+                JSON.stringify({
+                  error: "Interal server error",
+                })
+              );
+              Log(`Error en GET /products: ${err}`);
+            });
           break;
         case "/orders":
           loadFile(ordersPath).then((response) => {
-            res.end(JSON.stringify(response)), (res.statusCode = 200);
+            res.end(JSON.stringify(response));
           });
           break;
+        default:
+          res.statusCode = 404;
+          res.end(JSON.stringify({ error: "Route not found" }));
       }
       break;
     case "POST":
@@ -51,7 +70,6 @@ const server = http.createServer((req, res) => {
             } catch (error) {
               res.statusCode = 400;
               Log(error);
-              console.log("Error creating the product: ", error);
             }
           });
         }
@@ -60,5 +78,6 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
+  Log(`Server listening on port http://localhost:${PORT}`);
   console.log(`Server listening on port http://localhost:${PORT}`);
 });
