@@ -2,6 +2,7 @@ import http from "node:http";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { loadFile, updateFile } from "./utils/manageFile.js";
+import { Log } from "./utils/manageLogFile.js";
 
 const PORT = process.env.PORT ?? 4000;
 
@@ -44,8 +45,12 @@ const server = http.createServer((req, res) => {
               await updateFile(newProduct, productsPath);
               res.statusCode = 201;
               res.end(JSON.stringify(newProduct));
+              Log(
+                `Product created successfully: ${JSON.stringify(newProduct)}`
+              );
             } catch (error) {
               res.statusCode = 400;
+              Log(error);
               console.log("Error creating the product: ", error);
             }
           });
