@@ -1,0 +1,211 @@
+2025-03-24 03:07:53 - Product created successfullysdf 
+2025-03-24 03:10:23 - Produc created successfully: {"id":10,"name":"Joystick","price":40,"stock":10} 
+2025-03-24 13:37:21 - Server listening on port http://localhost:4000 
+2025-03-24 13:37:21 - File reading successfully: data/products.json 
+2025-03-24 13:37:21 - EROR - Error reading the following file path: data/products.json 
+2025-03-24 13:37:21 - File reading successfully: data/products.json 
+2025-03-24 13:37:21 - EROR - Error reading the following file path: data/products.json 
+2025-03-24 13:37:22 - File reading successfully: data/products.json 
+2025-03-24 13:37:22 - EROR - Error reading the following file path: data/products.json 
+2025-03-24 13:37:22 - File reading successfully: data/products.json 
+2025-03-24 13:37:22 - EROR - Error reading the following file path: data/products.json 
+2025-03-24 13:37:22 - File reading successfully: data/products.json 
+2025-03-24 13:37:22 - EROR - Error reading the following file path: data/products.json 
+2025-03-24 13:37:23 - File reading successfully: data/products.json 
+2025-03-24 13:37:23 - EROR - Error reading the following file path: data/products.json 
+2025-03-24 13:37:23 - File reading successfully: data/products.json 
+2025-03-24 13:37:23 - EROR - Error reading the following file path: data/products.json 
+2025-03-24 13:37:23 - File reading successfully: data/products.json 
+2025-03-24 13:37:23 - EROR - Error reading the following file path: data/products.json 
+2025-03-24 13:37:23 - File reading successfully: data/products.json 
+2025-03-24 13:37:23 - EROR - Error reading the following file path: data/products.json 
+2025-03-24 13:37:24 - File reading successfully: data/products.json 
+2025-03-24 13:37:24 - EROR - Error reading the following file path: data/products.json 
+2025-03-24 13:37:24 - File reading successfully: data/products.json 
+2025-03-24 13:37:24 - EROR - Error reading the following file path: data/products.json 
+2025-03-24 13:37:24 - File reading successfully: data/products.json 
+2025-03-24 13:37:24 - EROR - Error reading the following file path: data/products.json 
+2025-03-24 13:37:25 - File reading successfully: data/products.json 
+2025-03-24 13:37:25 - EROR - Error reading the following file path: data/products.json 
+2025-03-24 13:37:25 - File reading successfully: data/products.json 
+2025-03-24 13:37:25 - EROR - Error reading the following file path: data/products.json 
+2025-03-24 13:37:25 - File reading successfully: data/products.json 
+2025-03-24 13:37:25 - EROR - Error reading the following file path: data/products.json 
+2025-03-24 13:38:03 - Server listening on port http://localhost:4000 
+2025-03-24 13:38:04 - File reading successfully: data/products.json 
+2025-03-24 13:38:04 - File reading successfully: data/products.json 
+2025-03-24 13:38:04 - File reading successfully: data/products.json 
+2025-03-24 13:38:04 - File reading successfully: data/products.json 
+2025-03-24 13:38:05 - File reading successfully: data/products.json 
+2025-03-24 13:38:05 - File reading successfully: data/products.json 
+2025-03-24 13:38:05 - File reading successfully: data/products.json 
+2025-03-24 13:38:05 - File reading successfully: data/products.json 
+2025-03-24 13:38:06 - File reading successfully: data/products.json 
+2025-03-24 13:38:06 - File reading successfully: data/products.json 
+2025-03-24 13:38:06 - File reading successfully: data/products.json 
+2025-03-24 13:38:06 - File reading successfully: data/products.json 
+2025-03-24 13:38:07 - File reading successfully: data/products.json 
+2025-03-24 13:38:07 - File reading successfully: data/products.json 
+2025-03-24 13:38:59 - Server listening on port http://localhost:4000 
+2025-03-24 13:39:00 - File reading successfully: data/products.json 
+2025-03-24 13:39:00 - File reading successfully: data/products.json 
+2025-03-24 13:39:00 - File reading successfully: data/products.json 
+2025-03-24 13:39:01 - File reading successfully: data/products.json 
+2025-03-24 13:39:01 - File reading successfully: data/products.json 
+2025-03-24 13:39:01 - File reading successfully: data/products.json 
+2025-03-24 13:39:01 - File reading successfully: data/products.json 
+2025-03-24 13:39:02 - File reading successfully: data/products.json 
+2025-03-24 13:39:02 - File reading successfully: data/products.json 
+2025-03-24 13:39:02 - File reading successfully: data/products.json 
+2025-03-24 13:39:02 - File reading successfully: data/products.json 
+2025-03-24 13:42:11 - Server listening on port http://localhost:4000 
+2025-03-24 13:42:11 - File reading successfully: data/products.json 
+2025-03-24 13:42:11 - File reading successfully: data/products.json 
+2025-03-24 13:42:11 - File reading successfully: data/products.json 
+2025-03-24 13:42:12 - File reading successfully: data/products.json 
+2025-03-24 13:42:12 - File reading successfully: data/products.json 
+2025-03-24 13:42:12 - File reading successfully: data/products.json 
+2025-03-24 13:42:13 - File reading successfully: data/products.json 
+2025-03-24 13:42:13 - File reading successfully: data/products.json 
+2025-03-24 13:42:13 - File reading successfully: data/products.json 
+2025-03-24 13:42:14 - File reading successfully: data/products.json 
+2025-03-24 13:42:14 - File reading successfully: data/products.json 
+2025-03-24 13:42:14 - File reading successfully: data/products.json 
+2025-03-24 13:42:14 - File reading successfully: data/products.json 
+2025-03-24 13:42:15 - File reading successfully: data/products.json 
+2025-03-24 13:42:15 - File reading successfully: data/products.json 
+2025-03-24 13:42:15 - File reading successfully: data/products.json 
+2025-03-24 13:45:51 - Server listening on port http://localhost:4000 
+2025-03-24 13:50:03 - Server listening on port http://localhost:4000 
+2025-03-24 13:50:03 - File reading successfully: data/products.json 
+2025-03-24 13:50:04 - File reading successfully: data/products.json 
+2025-03-24 13:50:04 - File reading successfully: data/products.json 
+2025-03-24 13:50:04 - File reading successfully: data/products.json 
+2025-03-24 13:50:05 - File reading successfully: data/products.json 
+2025-03-24 13:50:05 - File reading successfully: data/products.json 
+2025-03-24 13:50:05 - File reading successfully: data/products.json 
+2025-03-24 13:50:06 - File reading successfully: data/products.json 
+2025-03-24 13:50:06 - File reading successfully: data/products.json 
+2025-03-24 13:50:06 - File reading successfully: data/products.json 
+2025-03-24 13:50:07 - File reading successfully: data/products.json 
+2025-03-24 13:50:07 - File reading successfully: data/products.json 
+2025-03-24 13:54:48 - Server listening on port http://localhost:4000 
+2025-03-24 13:54:49 - File reading successfully: data/products.json 
+2025-03-24 13:54:49 - File reading successfully: data/products.json 
+2025-03-24 13:54:49 - File reading successfully: data/products.json 
+2025-03-24 13:54:50 - File reading successfully: data/products.json 
+2025-03-24 13:54:50 - File reading successfully: data/products.json 
+2025-03-24 13:54:50 - File reading successfully: data/products.json 
+2025-03-24 13:54:50 - File reading successfully: data/products.json 
+2025-03-24 13:54:51 - File reading successfully: data/products.json 
+2025-03-24 13:54:51 - File reading successfully: data/products.json 
+2025-03-24 13:54:51 - File reading successfully: data/products.json 
+2025-03-24 13:54:51 - File reading successfully: data/products.json 
+2025-03-24 13:58:19 - Server listening on port http://localhost:4000 
+2025-03-24 13:58:19 - File reading successfully: data/products.json 
+2025-03-24 13:58:19 - File reading successfully: data/products.json 
+2025-03-24 13:58:20 - File reading successfully: data/products.json 
+2025-03-24 13:58:20 - File reading successfully: data/products.json 
+2025-03-24 13:58:20 - File reading successfully: data/products.json 
+2025-03-24 13:58:20 - File reading successfully: data/products.json 
+2025-03-24 13:58:21 - File reading successfully: data/products.json 
+2025-03-24 14:00:04 - Server listening on port http://localhost:4000 
+2025-03-24 14:00:04 - File reading successfully: data/products.json 
+2025-03-24 14:00:05 - File reading successfully: data/products.json 
+2025-03-24 14:00:05 - File reading successfully: data/products.json 
+2025-03-24 14:00:05 - File reading successfully: data/products.json 
+2025-03-24 14:00:06 - File reading successfully: data/products.json 
+2025-03-24 14:00:06 - File reading successfully: data/products.json 
+2025-03-24 14:00:06 - File reading successfully: data/products.json 
+2025-03-24 14:00:06 - File reading successfully: data/products.json 
+2025-03-24 14:00:06 - File reading successfully: data/products.json 
+2025-03-24 14:01:17 - Server listening on port http://localhost:4000 
+2025-03-24 14:01:17 - File reading successfully: data/products.json 
+2025-03-24 14:01:18 - File reading successfully: data/products.json 
+2025-03-24 14:01:18 - File reading successfully: data/products.json 
+2025-03-24 14:01:18 - File reading successfully: data/products.json 
+2025-03-24 14:01:18 - File reading successfully: data/products.json 
+2025-03-24 14:08:44 - Server listening on port http://localhost:4000 
+2025-03-24 14:08:45 - File reading successfully: data/products.json 
+2025-03-24 14:08:45 - File reading successfully: data/products.json 
+2025-03-24 14:08:45 - File reading successfully: data/products.json 
+2025-03-24 14:08:46 - File reading successfully: data/products.json 
+2025-03-24 14:08:46 - File reading successfully: data/products.json 
+2025-03-24 14:08:46 - File reading successfully: data/products.json 
+2025-03-24 14:08:46 - File reading successfully: data/products.json 
+2025-03-24 14:08:47 - File reading successfully: data/products.json 
+2025-03-24 14:08:47 - File reading successfully: data/products.json 
+2025-03-24 14:08:47 - File reading successfully: data/products.json 
+2025-03-24 14:09:48 - Server listening on port http://localhost:4000 
+2025-03-24 14:09:48 - File reading successfully: data/products.json 
+2025-03-24 14:09:48 - File reading successfully: data/products.json 
+2025-03-24 14:09:49 - File reading successfully: data/products.json 
+2025-03-24 14:09:49 - File reading successfully: data/products.json 
+2025-03-24 14:09:49 - File reading successfully: data/products.json 
+2025-03-24 14:14:09 - Server listening on port http://localhost:4000 
+2025-03-24 14:14:10 - File reading successfully: data/products.json 
+2025-03-24 14:14:17 - File reading successfully: data/products.json 
+2025-03-24 14:16:57 - File reading successfully: data/products.json 
+2025-03-24 14:16:57 - File reading successfully: data/products.json 
+2025-03-24 14:16:57 - File reading successfully: data/products.json 
+2025-03-24 14:16:58 - File reading successfully: data/products.json 
+2025-03-24 14:16:58 - File reading successfully: data/products.json 
+2025-03-24 14:16:58 - File reading successfully: data/products.json 
+2025-03-24 14:16:59 - File reading successfully: data/products.json 
+2025-03-24 14:16:59 - File reading successfully: data/products.json 
+2025-03-24 14:16:59 - File reading successfully: data/products.json 
+2025-03-24 14:17:00 - File reading successfully: data/products.json 
+2025-03-24 14:17:00 - File reading successfully: data/products.json 
+2025-03-24 14:17:00 - File reading successfully: data/products.json 
+2025-03-24 14:17:01 - File reading successfully: data/products.json 
+2025-03-24 14:17:01 - File reading successfully: data/products.json 
+2025-03-24 14:17:01 - File reading successfully: data/products.json 
+2025-03-24 14:17:01 - File reading successfully: data/products.json 
+2025-03-24 14:17:02 - File reading successfully: data/products.json 
+2025-03-24 14:17:02 - File reading successfully: data/products.json 
+2025-03-24 14:17:02 - File reading successfully: data/products.json 
+2025-03-24 14:17:02 - File reading successfully: data/products.json 
+2025-03-24 23:13:14 - Server listening on port http://localhost:4000 
+2025-03-24 23:13:18 - File reading successfully: data/products.json 
+2025-03-24 23:13:18 - File reading successfully: data/products.json 
+2025-03-24 23:13:18 - File reading successfully: data/products.json 
+2025-03-24 23:13:19 - File reading successfully: data/products.json 
+2025-03-24 23:13:19 - File reading successfully: data/products.json 
+2025-03-24 23:13:19 - File reading successfully: data/products.json 
+2025-03-24 23:13:19 - File reading successfully: data/products.json 
+2025-03-24 23:13:20 - File reading successfully: data/products.json 
+2025-03-24 23:13:20 - File reading successfully: data/products.json 
+2025-03-24 23:13:20 - File reading successfully: data/products.json 
+2025-03-24 23:13:20 - File reading successfully: data/products.json 
+2025-03-24 23:13:21 - File reading successfully: data/products.json 
+2025-03-24 23:13:21 - File reading successfully: data/products.json 
+2025-03-24 23:13:21 - File reading successfully: data/products.json 
+2025-03-24 23:13:21 - File reading successfully: data/products.json 
+2025-03-24 23:13:22 - File reading successfully: data/products.json 
+2025-03-24 23:13:22 - File reading successfully: data/products.json 
+2025-03-24 23:13:22 - File reading successfully: data/products.json 
+2025-03-24 23:13:22 - File reading successfully: data/products.json 
+2025-03-24 23:13:23 - File reading successfully: data/products.json 
+2025-03-24 23:13:23 - File reading successfully: data/products.json 
+2025-03-24 23:13:23 - File reading successfully: data/products.json 
+2025-03-24 23:13:23 - File reading successfully: data/products.json 
+2025-03-24 23:13:24 - File reading successfully: data/products.json 
+2025-03-24 23:13:24 - File reading successfully: data/products.json 
+2025-03-24 23:13:24 - File reading successfully: data/products.json 
+2025-03-24 23:13:24 - File reading successfully: data/products.json 
+2025-03-24 23:13:25 - File reading successfully: data/products.json 
+2025-03-24 23:13:25 - File reading successfully: data/products.json 
+2025-03-24 23:13:25 - File reading successfully: data/products.json 
+2025-03-24 23:13:25 - File reading successfully: data/products.json 
+2025-03-24 23:13:26 - File reading successfully: data/products.json 
+2025-03-24 23:13:26 - File reading successfully: data/products.json 
+2025-03-24 23:13:26 - File reading successfully: data/products.json 
+2025-03-24 23:13:27 - File reading successfully: data/products.json 
+2025-03-24 23:13:27 - File reading successfully: data/products.json 
+2025-03-24 23:13:27 - File reading successfully: data/products.json 
+2025-03-24 23:13:27 - File reading successfully: data/products.json 
+2025-03-24 23:23:22 - Server listening on port http://localhost:4000 
+2025-03-24 23:23:24 - File reading successfully: data/products.json 
+2025-03-24 23:28:57 - Server listening on port http://localhost:4000 
+2025-03-24 23:29:21 - File reading successfully: data/products.json 
+2025-03-24 23:29:21 - File reading successfully: data/orders.json 
