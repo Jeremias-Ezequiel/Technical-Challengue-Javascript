@@ -28,6 +28,7 @@ const server = http.createServer((req, res) => {
             .then((response) => {
               res.statusCode = 200;
               res.end(JSON.stringify(response));
+              Log(`GET /products: ${JSON.stringify(response)}`);
             })
             .catch((err) => {
               res.statusCode = 500;
@@ -36,16 +37,29 @@ const server = http.createServer((req, res) => {
                   error: "Interal server error",
                 })
               );
-              Log(`Error en GET /products: ${err}`);
+              Log(`Error in GET /products: ${err}`);
             });
           break;
         case "/orders":
-          loadFile(ordersPath).then((response) => {
-            res.end(JSON.stringify(response));
-          });
+          loadFile(ordersPath)
+            .then((response) => {
+              res.statusCode = 200;
+              res.end(JSON.stringify(response));
+              Log(`GET /orders: ${JSON.stringify(response)}`);
+            })
+            .catch((err) => {
+              res.statusCode = 500;
+              res.end(
+                JSON.stringify({
+                  error: "Internal server error",
+                })
+              );
+              Log(`Error in GET /orders: ${err}`);
+            });
           break;
         default:
           res.statusCode = 404;
+          Log("Error : Rounte not found");
           res.end(JSON.stringify({ error: "Route not found" }));
       }
       break;
