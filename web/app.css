@@ -1,0 +1,134 @@
+:root{
+    --black : #060606;
+    --blueMain : #50608c;
+    --blueDark : #1e283d; 
+    --blueLight : #89a3dc;
+    --light: #b7d9e5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: var(--light);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+/*NAVIGATION*/
+
+.main_navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--blueLight);
+    background-color: var(--blueDark);
+    font-size: 20px;
+    padding: 15px;
+}
+
+.nav_link{
+    display: flex;
+    gap: 30px;
+}
+
+.nav_link a{
+    color: var(--blueLight);
+    padding-bottom: 5px;
+    &:hover{
+        border-bottom: 2px solid var(--blueLight);
+    }
+}
+
+/*SUMMARY*/
+
+.summary{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+main > h2{
+    font-size:40px;
+    margin: 20px;
+}
+
+.summary-item{
+    width: 600px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1xp solid black;
+    width: 100%;
+    margin: 20px 0px;
+    background-color: white;
+}
+
+table,th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.littleStock{
+    background-color: orange;
+}
+.totalSales{
+    background-color: var(--blueDark);
+    color: white;
+    font-weight: bold;
+}
+
+/*PRODUCT PAGE*/
+
+#products-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+.product-field{
+    display: flex;
+    align-items: center;
+}
+
+.product-field label{
+    width: 90px;
+    font-weight: bold;
+}
+
+.product-field input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+#createProduct{
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .55s linear;
+
+    &:hover{
+        transform:scale(1.1);
+    }
+}
+
