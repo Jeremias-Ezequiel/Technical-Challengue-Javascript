@@ -1,5 +1,5 @@
 import { Product } from "../models/Product.js";
-import { showTable } from "../utils/tableUtils.jsd";
+import { showTable } from "../utils/tableUtils.js";
 
 const pageProducts = document.getElementById("pageProducts");
 const productInputs = document.querySelectorAll("#products-form input");
@@ -18,13 +18,13 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 productsForm.addEventListener("submit", async (event) => {
   event.preventDefault();
-  console.log(newProduct.isValid());
+
   if (!newProduct.isValid()) {
     alert("There are some input field empty");
   }
 
   try {
-    const [createProdut, productsList] = await Promise.all([
+    const [createProduct, productsList] = await Promise.all([
       fetch("http://localhost:4000/products", {
         method: "POST",
         body: JSON.stringify(newProduct),
