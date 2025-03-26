@@ -93,31 +93,31 @@ table,th,td{
 
 /*PRODUCT PAGE*/
 
-#products-form{
+.generalForm{
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 500px;
 }
 
-.product-field{
+.generalField{
     display: flex;
     align-items: center;
 }
 
-.product-field label{
+.generalField label{
     width: 90px;
     font-weight: bold;
 }
 
-.product-field input{
+.generalField input{
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     border: none;
     border-radius: 5px;
 }
 
-#createProduct{
+.createButton{
     padding: 8px;
     border: none;
     font-weight: bold;
@@ -132,3 +132,12 @@ table,th,td{
     }
 }
 
+/*ORDERS PAGE*/
+
+.price{
+    font-weight: bold;
+}
+
+.price span{
+    font-size: 20px;
+}

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inventory System | Adistec</title>
     <link rel="stylesheet" href="/app.css">
-    <script src="/pages/products.js" type="module" defer></script>
+    <script src="/pages/orders.js" type="module" defer></script>
 </head>
 <body>
     <header>
@@ -21,27 +21,29 @@
         </div>
     </header>
     <main>
-        <h2>Products</h2>
+        <h2>Orders</h2>
         <section class="summary">
-            <form id="products-form">
-                <h3>Create a Product</h3>
-                <div class="product-field">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" placeholder="Name of product">
+            <form id="orderForm" class="generalForm">
+                <h3>Create a Order</h3>
+                <div class="generalField">
+                    <label for="client">Client name:</label>
+                    <input type="text" id="client" placeholder="Name of client">
                 </div>
-                <div class="product-field">
-                    <label for="price">Price:</label>
-                    <input type="number" min="1" id="price" placeholder="Price of product">
+                <div class="generalField" id="orderSelect">
+                    <label for="">Select a product: </label>
                 </div>
-                <div class="product-field">
+                <div class="generalField">
                     <label for="stock">Quantity:</label>
-                    <input type="number" min="1" id="stock" placeholder="Quantity of product">
+                    <input type="number" min="1" id="quantity" placeholder="Quantity of product">
                 </div>
-                <button type="submit" id="createProduct">Create Product</button>
+                <div class="generalField">
+                    <p class="price">Total: <span id="totalPrice"> - </span></p>
+                </div>
+                <button type="submit" id="createOrder" class="createButton">Create Product</button>
             </form>
             <div>
-                <h3>All Products</h>
-                <table id="pageProducts">
+                <h3>All Orders</h>
+                <table id="pageOrders">
 
                 </table>
             </div>
