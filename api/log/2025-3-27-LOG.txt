@@ -1290,3 +1290,79 @@
 3/27/2025 - 1:57:11 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
 3/27/2025 - 1:57:11 P - File reading successfully: data/orders.json 
 3/27/2025 - 1:57:11 P - GET /orders: [] 
+3/27/2025 - 2:28:15 P - Server listening on port http://localhost:4000 
+3/27/2025 - 2:28:17 P - File reading successfully: data/products.json 
+3/27/2025 - 2:28:17 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 2:28:17 P - File reading successfully: data/orders.json 
+3/27/2025 - 2:28:17 P - GET /orders: [] 
+3/27/2025 - 2:28:41 P - Server listening on port http://localhost:4000 
+3/27/2025 - 2:28:44 P - File reading successfully: data/products.json 
+3/27/2025 - 2:28:44 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 2:28:44 P - File reading successfully: data/orders.json 
+3/27/2025 - 2:28:44 P - GET /orders: [] 
+3/27/2025 - 2:28:53 P - File reading successfully: data/products.json 
+3/27/2025 - 2:28:53 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 2:28:53 P - File reading successfully: data/orders.json 
+3/27/2025 - 2:28:53 P - GET /orders: [] 
+3/27/2025 - 2:30:37 P - File reading successfully: data/products.json 
+3/27/2025 - 2:30:37 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 2:30:37 P - File reading successfully: data/orders.json 
+3/27/2025 - 2:30:37 P - GET /orders: [] 
+3/27/2025 - 2:30:54 P - File reading successfully: data/products.json 
+3/27/2025 - 2:30:54 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 2:30:54 P - File reading successfully: data/orders.json 
+3/27/2025 - 2:30:54 P - GET /orders: [] 
+3/27/2025 - 2:31:20 P - File reading successfully: data/products.json 
+3/27/2025 - 2:31:20 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 2:31:20 P - File reading successfully: data/orders.json 
+3/27/2025 - 2:31:20 P - GET /orders: [] 
+3/27/2025 - 2:31:22 P - File reading successfully: data/products.json 
+3/27/2025 - 2:31:22 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 2:31:22 P - File reading successfully: data/orders.json 
+3/27/2025 - 2:31:22 P - GET /orders: [] 
+3/27/2025 - 2:31:30 P - File reading successfully: data/products.json 
+3/27/2025 - 2:31:30 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 2:31:37 P - File reading successfully: data/products.json 
+3/27/2025 - 2:31:37 P - File reading successfully: data/products.json 
+3/27/2025 - 2:31:37 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 2:31:37 P - File update successfully 
+3/27/2025 - 2:31:37 P - POST /products - Product created successfully: {"id":1,"name":"Playstation 5","price":"123","stock":"123"} 
+3/27/2025 - 2:31:39 P - File reading successfully: data/products.json 
+3/27/2025 - 2:31:39 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"},{"id":1,"name":"Playstation 5","price":"123","stock":"123"}] 
+3/27/2025 - 2:31:42 P - File reading successfully: data/products.json 
+3/27/2025 - 2:31:42 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"},{"id":1,"name":"Playstation 5","price":"123","stock":"123"}] 
+3/27/2025 - 2:31:42 P - File reading successfully: data/orders.json 
+3/27/2025 - 2:31:42 P - GET /orders: [] 
+3/27/2025 - 2:32:06 P - File reading successfully: data/products.json 
+3/27/2025 - 2:32:06 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"},{"id":1,"name":"Playstation 5","price":"123","stock":"123"}] 
+3/27/2025 - 2:32:06 P - File reading successfully: data/orders.json 
+3/27/2025 - 2:32:06 P - GET /orders: [] 
+3/27/2025 - 2:32:53 P - File reading successfully: data/products.json 
+3/27/2025 - 2:32:53 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"},{"id":1,"name":"Playstation 5","price":"123","stock":"123"}] 
+3/27/2025 - 2:32:53 P - File reading successfully: data/orders.json 
+3/27/2025 - 2:32:53 P - GET /orders: [] 
+3/27/2025 - 2:33:06 P - File reading successfully: data/products.json 
+3/27/2025 - 2:33:06 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"},{"id":1,"name":"Playstation 5","price":"123","stock":"123"}] 
+3/27/2025 - 2:33:06 P - File reading successfully: data/orders.json 
+3/27/2025 - 2:33:06 P - GET /orders: [] 
+3/27/2025 - 2:33:09 P - File reading successfully: data/products.json 
+3/27/2025 - 2:33:09 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"},{"id":1,"name":"Playstation 5","price":"123","stock":"123"}] 
+3/27/2025 - 2:33:09 P - File reading successfully: data/orders.json 
+3/27/2025 - 2:33:09 P - GET /orders: [] 
+3/27/2025 - 2:33:17 P - File reading successfully: data/products.json 
+3/27/2025 - 2:33:17 P - ERROR POST /orders - Insufficient stock 
+3/27/2025 - 2:33:21 P - File reading successfully: data/products.json 
+3/27/2025 - 2:33:21 P - ERROR POST /orders - Insufficient stock 
+3/27/2025 - 2:33:42 P - File reading successfully: data/products.json 
+3/27/2025 - 2:33:42 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"},{"id":1,"name":"Playstation 5","price":"123","stock":"123"}] 
+3/27/2025 - 2:33:42 P - File reading successfully: data/orders.json 
+3/27/2025 - 2:33:42 P - GET /orders: [] 
+3/27/2025 - 2:33:50 P - File reading successfully: data/products.json 
+3/27/2025 - 2:33:50 P - ERROR POST /orders - Insufficient stock 
+3/27/2025 - 2:34:18 P - File reading successfully: data/products.json 
+3/27/2025 - 2:34:18 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"},{"id":1,"name":"Playstation 5","price":"123","stock":"123"}] 
+3/27/2025 - 2:34:18 P - File reading successfully: data/orders.json 
+3/27/2025 - 2:34:18 P - GET /orders: [] 
+3/27/2025 - 2:34:23 P - File reading successfully: data/products.json 
+3/27/2025 - 2:34:23 P - ERROR POST /orders - Insufficient stock 
+3/27/2025 - 2:34:39 P - Server listening on port http://localhost:4000 
