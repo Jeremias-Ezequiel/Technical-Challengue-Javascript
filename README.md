@@ -100,3 +100,4 @@ Step by step intructions to configure the local project.
 - `GET /orders`: Get order list.
 - `POST /orders`: Create a new order. 
 
+**Postman Collection**:[Collection](https://www.postman.com/jeremias03/workspace/technical-challengue/collection/36953447-c8a6c1f7-7e57-4163-bb10-17ba35418db5?action=share&creator=36953447)
