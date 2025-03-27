@@ -13,10 +13,14 @@ export async function loadFile(filePath) {
   }
 }
 
-export async function updateFile(newItem, filePath) {
+export async function addNewItemFile(newItem, filePath) {
   const arrayItems = await loadFile(filePath);
   arrayItems.push(newItem);
 
+  await updateFile(filePath, arrayItems);
+}
+
+export async function updateFile(filePath, arrayItems) {
   await fs.writeFile(filePath, JSON.stringify(arrayItems), "utf-8");
   Log("File update successfully");
 }

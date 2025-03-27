@@ -1,7 +1,8 @@
 import http from "node:http";
 import path from "node:path";
-import { loadFile, updateFile } from "./utils/manageFile.js";
+import { loadFile, addNewItemFile, updateFile } from "./utils/manageFile.js";
 import { Log } from "./utils/manageLogFile.js";
+import { Order } from "./models/Order.js";
 
 const PORT = process.env.PORT ?? 4000;
 
@@ -75,17 +76,68 @@ const server = http.createServer((req, res) => {
           req.on("end", async () => {
             try {
               const newProduct = JSON.parse(body);
-              await updateFile(newProduct, productsPath);
+              await addNewItemFile(newProduct, productsPath);
               res.statusCode = 201;
               res.end(JSON.stringify(newProduct));
               Log(
-                `Product created successfully: ${JSON.stringify(newProduct)}`
+                `POST /products - Product created successfully: ${JSON.stringify(
+                  newProduct
+                )}`
               );
             } catch (error) {
               res.statusCode = 400;
               Log(error);
             }
           });
+          break;
+        }
+        case "/orders": {
+          let body = "";
+          req.on("data", (chunk) => {
+            body += chunk;
+          });
+          req.on("end", async () => {
+            try {
+              // Create a new Order
+              const { client, productId, quantity, total } = JSON.parse(body);
+              const newOrder = new Order(client, productId, quantity, total);
+
+              // Get a list of products
+              const products = await loadFile(productsPath);
+
+              // Search the product in JSON
+              const indexProduct = products.findIndex(
+                (product) => product.id === productId
+              );
+
+              if (indexProduct === -1) {
+                res.statusCode = 401;
+                Log("ERROR POST /orders - Incorrect product ID");
+                return res.end(
+                  JSON.stringify({ error: "not enough stock available" })
+                );
+              }
+
+              // update the stock
+              products[indexProduct].stock -= quantity;
+              await updateFile(productsPath, products);
+
+              await addNewItemFile(newOrder, ordersPath);
+              res.statusCode = 201;
+              res.end(JSON.stringify(newOrder));
+              Log(
+                `POST /orders - Order create successfully ${JSON.stringify(
+                  newOrder
+                )}`
+              );
+            } catch (err) {
+              res.statusCode = 404;
+              Log(
+                "ERROR - POST /orders - There is an error in the creation of an order"
+              );
+            }
+          });
+          break;
         }
       }
   }
