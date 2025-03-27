@@ -3,6 +3,7 @@ import path from "node:path";
 import { loadFile, addNewItemFile, updateFile } from "./utils/manageFile.js";
 import { Log } from "./utils/manageLogFile.js";
 import { Order } from "./models/Order.js";
+import { Product } from "./models/Product.js";
 
 const PORT = process.env.PORT ?? 4000;
 
@@ -75,7 +76,11 @@ const server = http.createServer((req, res) => {
 
           req.on("end", async () => {
             try {
-              const newProduct = JSON.parse(body);
+              const { name, price, stock } = JSON.parse(body);
+              //Create the product
+              const newProduct = new Product(name, price, stock);
+
+              // Add the product to json file
               await addNewItemFile(newProduct, productsPath);
               res.statusCode = 201;
               res.end(JSON.stringify(newProduct));
@@ -86,7 +91,7 @@ const server = http.createServer((req, res) => {
               );
             } catch (error) {
               res.statusCode = 400;
-              Log(error);
+              Log(`ERROR POST /products - ${error}`);
             }
           });
           break;
@@ -100,7 +105,6 @@ const server = http.createServer((req, res) => {
             try {
               // Create a new Order
               const { client, productId, quantity, total } = JSON.parse(body);
-              const newOrder = new Order(client, productId, quantity, total);
 
               // Get a list of products
               const products = await loadFile(productsPath);
@@ -120,6 +124,15 @@ const server = http.createServer((req, res) => {
 
               // update the stock
               products[indexProduct].stock -= quantity;
+
+              if (products[indexProduct].stock <= 0) {
+                res.statusCode = 400;
+                Log("ERROR POST /orders - There isn't stock available");
+                return res.end(
+                  JSON.stringify({ error: "There isn't stock available" })
+                );
+              }
+              const newOrder = new Order(client, productId, quantity, total);
               await updateFile(productsPath, products);
 
               await addNewItemFile(newOrder, ordersPath);

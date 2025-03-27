@@ -8,7 +8,7 @@ export async function loadFile(filePath) {
     Log(`File reading successfully: ${filePath}`);
     return JSON.parse(data);
   } catch (error) {
-    Log(`EROR - Error reading the following file path: ${filePath}`);
+    Log(`ERROR - Error reading the following file path: ${filePath}`);
     return [];
   }
 }
