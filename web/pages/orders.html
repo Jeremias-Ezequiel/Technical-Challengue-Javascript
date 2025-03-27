@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory System | Adistec</title>
+    <link rel="stylesheet" href="/app.css">
+    <script src="/pages/orders.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <div class="main_navigation">
+            <h1>Inventory</h1>
+            <nav>
+                <ul class="nav_link">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/pages/products.html">Products</a></li>
+                    <li><a href="/pages/orders.html">Orders</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Orders</h2>
+        <section class="summary">
+            <form id="orderForm" class="generalForm">
+                <h3>Create a Order</h3>
+                <div class="generalField">
+                    <label for="client">Client name:</label>
+                    <input type="text" id="client" placeholder="Name of client">
+                </div>
+                <div class="generalField">
+                    <label for="">Select a product: </label>
+                    <select name="productId" id="orderSelect">
+                    
+                    </select>
+                </div>
+                <div class="generalField">
+                    <label for="stock">Quantity:</label>
+                    <input type="number" min="1" value="1" id="quantity" placeholder="Quantity of product">
+                </div>
+                <div class="generalField">
+                    <p class="price">Total: <span id="totalPrice"> - </span></p>
+                </div>
+                <button type="submit" id="createOrder" class="createButton">Create Product</button>
+            </form>
+            <div>
+                <h3>All Orders</h>
+                <table id="pageOrders">
+
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
