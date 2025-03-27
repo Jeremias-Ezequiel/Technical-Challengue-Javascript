@@ -175,6 +175,7 @@ const server = http.createServer((req, res) => {
           );
 
           if (indexProduct === -1) {
+            Log("ERROR PUT /products/:index - Index not found");
             res.statusCode = 400;
             return res.end(
               JSON.stringify({ error: "Index not found", code: 400 })
@@ -194,8 +195,64 @@ const server = http.createServer((req, res) => {
           );
           return res.end(JSON.stringify(productsArr[indexProduct]));
         });
+      } else {
+        res.statusCode = 404;
+        Log("ERROR PUT - Route not found");
+        return res.end(JSON.stringify({ error: "Route not found", code: 404 }));
       }
       break;
+    }
+    case "DELETE": {
+      const index = parseInt(url.split("/")[2]);
+      const newUrl = url.slice(0, url.length - 1);
+
+      if (newUrl === "/products/") {
+        req.on("end", async () => {
+          // GET products
+          const products = await loadFile(productsPath);
+
+          // Search index
+          const productIndex = products.findIndex(
+            (product) => product.id === index
+          );
+
+          if (productIndex !== -1) {
+            const productsUpd = products.filter(
+              (product) => product.id !== index
+            );
+            await updateFile(productsPath, productsUpd);
+            Log(
+              `DELETE /products - Delete product successfully : ${JSON.stringify(
+                products[index]
+              )}`
+            );
+            res.statusCode = 200;
+            return res.end(
+              JSON.stringify({
+                message: "Delete successfully",
+                data: products[index],
+              })
+            );
+          } else {
+            res.statusCode = 400;
+            Log("ERROR DELETE /products:index - Index not found");
+            return res.end(
+              JSON.stringify({ error: "Index not found", code: 400 })
+            );
+          }
+        });
+        req.on("data", () => {});
+      }
+      break;
+    }
+    default: {
+      res.statusCode = 405;
+      Log("ERROR - Method not allowed");
+      return res.end(
+        JSON.stringify({
+          error: "Method not allowed",
+        })
+      );
     }
   }
 });

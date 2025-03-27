@@ -388,3 +388,60 @@
 3/27/2025 - 9:46:31 A - /PUT /products/:i - Update Successfully {"id":1,"name":"Test update","price":999,"stock":11} 
 3/27/2025 - 9:46:34 A - File reading successfully: data/products.json 
 3/27/2025 - 9:46:34 A - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:37:20  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:37:22  - File reading successfully: data/products.json 
+3/27/2025 - 10:38:16  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:38:20  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:38:27  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:38:30  - File reading successfully: data/products.json 
+3/27/2025 - 10:39:18  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:39:41  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:40:14  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:40:29  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:42:34  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:42:54  - File reading successfully: data/products.json 
+3/27/2025 - 10:42:54  - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:43:01  - File reading successfully: data/products.json 
+3/27/2025 - 10:43:56  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:43:58  - File reading successfully: data/products.json 
+3/27/2025 - 10:44:15  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:44:17  - File reading successfully: data/products.json 
+3/27/2025 - 10:44:51  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:44:52  - File reading successfully: data/products.json 
+3/27/2025 - 10:45:14  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:45:16  - File reading successfully: data/products.json 
+3/27/2025 - 10:45:20  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:45:31  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:45:32  - File reading successfully: data/products.json 
+3/27/2025 - 10:45:45  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:45:46  - File reading successfully: data/products.json 
+3/27/2025 - 10:48:29  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:48:39  - File reading successfully: data/products.json 
+3/27/2025 - 10:48:39  - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:48:45  - File reading successfully: data/products.json 
+3/27/2025 - 10:48:45  - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:48:48  - File reading successfully: data/products.json 
+3/27/2025 - 10:48:48  - File update successfully 
+3/27/2025 - 10:48:48  - /PUT /products/:i - Update Successfully {"id":1,"name":"Test update","price":999,"stock":11} 
+3/27/2025 - 10:48:52  - File reading successfully: data/products.json 
+3/27/2025 - 10:48:52  - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:49:05  - File reading successfully: data/products.json 
+3/27/2025 - 10:49:05  - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:49:20  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:49:42  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:49:54  - File reading successfully: data/products.json 
+3/27/2025 - 10:49:54  - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:49:58  - File reading successfully: data/products.json 
+3/27/2025 - 10:49:58  - File update successfully 
+3/27/2025 - 10:50:02  - File reading successfully: data/products.json 
+3/27/2025 - 10:50:02  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:50:48  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:51:06  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:51:20  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:53:13  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:53:43  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:54:00  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:55:06  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:55:35  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:56:14  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:56:27  - Server listening on port http://localhost:4000 
