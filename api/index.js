@@ -114,7 +114,7 @@ const server = http.createServer((req, res) => {
 
               // Search the product in JSON
               const indexProduct = products.findIndex(
-                (product) => product.id === productId
+                (product) => product.id === parseInt(productId)
               );
 
               if (indexProduct === -1) {
@@ -123,6 +123,9 @@ const server = http.createServer((req, res) => {
                 return res.end(JSON.stringify({ error: "Product not found" }));
               }
 
+              console.log(products[indexProduct]);
+              console.log(quantity);
+
               if (products[indexProduct].stock < quantity) {
                 res.statusCode = 400;
                 Log("ERROR POST /orders - Insufficient stock");
@@ -130,7 +133,10 @@ const server = http.createServer((req, res) => {
                   JSON.stringify({ error: "Not enough stock available" })
                 );
               }
-
+              console.log(client);
+              console.log(productId);
+              console.log(quantity);
+              console.log(total);
               if (!client || !productId || !quantity || !total) {
                 res.statusCode = 400;
                 Log("POST /orders - Missing required failed");
