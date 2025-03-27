@@ -62,7 +62,7 @@ const server = http.createServer((req, res) => {
         default:
           res.statusCode = 404;
           Log("Error : Rounte not found");
-          res.end(JSON.stringify({ error: "Route not found" }));
+          return res.end(JSON.stringify({ error: "Route not found" }));
       }
       break;
     case "POST":
@@ -92,15 +92,18 @@ const server = http.createServer((req, res) => {
             } catch (error) {
               res.statusCode = 400;
               Log(`ERROR POST /products - ${error}`);
+              return res.end(JSON.stringify({ error: error, code: 400 }));
             }
           });
           break;
         }
         case "/orders": {
           let body = "";
+
           req.on("data", (chunk) => {
             body += chunk;
           });
+
           req.on("end", async () => {
             try {
               // Create a new Order
@@ -115,27 +118,36 @@ const server = http.createServer((req, res) => {
               );
 
               if (indexProduct === -1) {
-                res.statusCode = 401;
+                res.statusCode = 404;
                 Log("ERROR POST /orders - Incorrect product ID");
+                return res.end(JSON.stringify({ error: "Product not found" }));
+              }
+
+              if (products[indexProduct].stock < quantity) {
+                res.statusCode = 400;
+                Log("ERROR POST /orders - Insufficient stock");
                 return res.end(
-                  JSON.stringify({ error: "not enough stock available" })
+                  JSON.stringify({ error: "Not enough stock available" })
                 );
               }
 
+              if (!client || !productId || !quantity || !total) {
+                res.statusCode = 400;
+                Log("POST /orders - Missing required failed");
+                return res.end(
+                  JSON.stringify({
+                    error: "Missing required fields",
+                  })
+                );
+              }
               // update the stock
               products[indexProduct].stock -= quantity;
 
-              if (products[indexProduct].stock <= 0) {
-                res.statusCode = 400;
-                Log("ERROR POST /orders - There isn't stock available");
-                return res.end(
-                  JSON.stringify({ error: "There isn't stock available" })
-                );
-              }
               const newOrder = new Order(client, productId, quantity, total);
-              await updateFile(productsPath, products);
 
+              await updateFile(productsPath, products);
               await addNewItemFile(newOrder, ordersPath);
+
               res.statusCode = 201;
               res.end(JSON.stringify(newOrder));
               Log(
@@ -144,15 +156,21 @@ const server = http.createServer((req, res) => {
                 )}`
               );
             } catch (err) {
-              res.statusCode = 404;
-              Log(
-                "ERROR - POST /orders - There is an error in the creation of an order"
-              );
+              res.statusCode = 500;
+              Log("ERROR - POST /orders - Failed to create order");
+              return res.end(JSON.stringify({ error: err, code: 404 }));
             }
           });
           break;
         }
+        default: {
+          res.statusCode = 404;
+          Log("Error : Rounte not found");
+          res.end(JSON.stringify({ error: "Route not found" }));
+          break;
+        }
       }
+      break;
     case "PUT": {
       // GET index at the URL
       const index = parseInt(url.split("/")[2]);
@@ -176,9 +194,9 @@ const server = http.createServer((req, res) => {
 
           if (indexProduct === -1) {
             Log("ERROR PUT /products/:index - Index not found");
-            res.statusCode = 400;
+            res.statusCode = 404;
             return res.end(
-              JSON.stringify({ error: "Index not found", code: 400 })
+              JSON.stringify({ error: "Index not found", code: 404 })
             );
           }
 
@@ -197,7 +215,7 @@ const server = http.createServer((req, res) => {
         });
       } else {
         res.statusCode = 404;
-        Log("ERROR PUT - Route not found");
+        Log("ERROR PUT /productss/:index - Route not found");
         return res.end(JSON.stringify({ error: "Route not found", code: 404 }));
       }
       break;
@@ -223,14 +241,14 @@ const server = http.createServer((req, res) => {
             await updateFile(productsPath, productsUpd);
             Log(
               `DELETE /products - Delete product successfully : ${JSON.stringify(
-                products[index]
+                products[productIndex]
               )}`
             );
             res.statusCode = 200;
             return res.end(
               JSON.stringify({
                 message: "Delete successfully",
-                data: products[index],
+                data: products[productIndex],
               })
             );
           } else {
@@ -253,6 +271,7 @@ const server = http.createServer((req, res) => {
           error: "Method not allowed",
         })
       );
+      break;
     }
   }
 });
