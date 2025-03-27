@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       fetch(`${BASE_URL}/orders`).then((res) => res.json()),
     ]);
     showTable(products, infoProducts, productHeaders, "products");
-    showTable(orders, infoOrders, orderHeaders, "orders");
+    showTable(orders, infoOrders, orderHeaders, "orders", products);
   } catch (err) {
     console.log("Error");
   }

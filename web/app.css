@@ -110,7 +110,8 @@ table,th,td{
     font-weight: bold;
 }
 
-.generalField input{
+.generalField input,
+#orderSelect{
     width: 100%;
     padding: 10px;
     border: none;

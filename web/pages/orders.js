@@ -7,11 +7,12 @@ const containerOrder = document.getElementById("pageOrders");
 const totalPrice = document.getElementById("totalPrice");
 const orderSelect = document.getElementById("orderSelect");
 const quantityProduct = document.getElementById("quantity");
+const clientName = document.getElementById("client");
 
 const newOrder = new Order();
 let orders = [];
 let products = [];
-const orderHeaders = ["Client", "Quantity", "Total"];
+const orderHeaders = ["Client", "Product Name", "Quantity", "Total"];
 
 document.addEventListener("DOMContentLoaded", async () => {
   try {
@@ -21,7 +22,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     ]);
     orders = orderData;
     products = productData;
-    showTable(orderData, containerOrder, orderHeaders, "orders");
+    showTable(orderData, containerOrder, orderHeaders, "orders", productData);
     showSelect(productData, orderSelect);
   } catch (err) {
     console.log(err);
@@ -37,19 +38,17 @@ orderSelect.addEventListener("change", (event) => {
   const { value: position } = event.target;
   const { price } = products[position];
   optionInfo.price = price;
+  newOrder.productId = position;
+  newOrder.total = price;
   showPrice(optionInfo.price, optionInfo.quantity);
 });
 
 quantityProduct.addEventListener("input", (event) => {
   const quantity = event.target.value;
   optionInfo.quantity = quantity;
+  newOrder.quantity = quantity;
   showPrice(optionInfo.price, optionInfo.quantity);
 });
-
-function showPrice(price, quantity) {
-  let total = price * quantity;
-  totalPrice.textContent = `$${total.toFixed(2)}`;
-}
 
 orderForm.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -57,6 +56,14 @@ orderForm.addEventListener("submit", (event) => {
   if (!newOrder.isValid()) {
     alert("There are some input fields empty");
   }
-
-  console.log(orderSelect.price);
 });
+
+clientName.addEventListener("input", (event) => {
+  const name = event.target.value;
+  newOrder.client = name;
+});
+
+function showPrice(price, quantity) {
+  let total = price * quantity;
+  totalPrice.textContent = `$${total.toFixed(2)}`;
+}

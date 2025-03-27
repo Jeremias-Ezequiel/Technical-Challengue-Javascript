@@ -1,4 +1,4 @@
-export function showTable(elements, container, headers, type) {
+export function showTable(elements, container, headers, type, products) {
   createHeaders(container, headers);
   // Create data
   switch (type) {
@@ -7,7 +7,7 @@ export function showTable(elements, container, headers, type) {
       break;
     }
     case "orders": {
-      createOrdersTable(container, elements);
+      createOrdersTable(container, elements, products);
       break;
     }
     default:
@@ -50,13 +50,18 @@ function createProductsTable(container, elements) {
   });
 }
 
-function createOrdersTable(container, elements) {
+function createOrdersTable(container, elements, productElements) {
   let salesTotal = 0;
   elements.forEach((element) => {
-    const { client, quantity, total } = element;
+    const { client, quantity, total, productId } = element;
+    const { name: productName } = productElements[productId];
     let row = document.createElement("TR");
     let data = document.createElement("TD");
     data.textContent = client;
+    row.appendChild(data);
+
+    data = document.createElement("TD");
+    data.textContent = productName;
     row.appendChild(data);
 
     data = document.createElement("TD");
