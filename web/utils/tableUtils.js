@@ -37,7 +37,7 @@ function createProductsTable(container, elements) {
     row.appendChild(data);
 
     data = document.createElement("TD");
-    data.textContent = price;
+    data.textContent = `$${price}`;
     row.appendChild(data);
 
     data = document.createElement("TD");
@@ -54,7 +54,14 @@ function createOrdersTable(container, elements, productElements) {
   let salesTotal = 0;
   elements.forEach((element) => {
     const { client, quantity, total, productId } = element;
-    const { name: productName } = productElements[productId];
+    const index = productElements.findIndex(
+      (element) => productId === element.id
+    );
+
+    if (index === -1) {
+      return console.error("The product doesn't exist");
+    }
+    const { name: productName } = productElements[index];
     let row = document.createElement("TR");
     let data = document.createElement("TD");
     data.textContent = client;
@@ -77,7 +84,7 @@ function createOrdersTable(container, elements, productElements) {
   let row = document.createElement("TR");
   let data = document.createElement("TD");
   data.textContent += "Total:";
-  data.setAttribute("colspan", "2");
+  data.setAttribute("colspan", "3");
   data.classList.add("totalSales");
   row.appendChild(data);
 

@@ -62,7 +62,7 @@ const server = http.createServer((req, res) => {
         default:
           res.statusCode = 404;
           Log("Error : Rounte not found");
-          res.end(JSON.stringify({ error: "Route not found" }));
+          return res.end(JSON.stringify({ error: "Route not found" }));
       }
       break;
     case "POST":
@@ -92,15 +92,18 @@ const server = http.createServer((req, res) => {
             } catch (error) {
               res.statusCode = 400;
               Log(`ERROR POST /products - ${error}`);
+              return res.end(JSON.stringify({ error: error, code: 400 }));
             }
           });
           break;
         }
         case "/orders": {
           let body = "";
+
           req.on("data", (chunk) => {
             body += chunk;
           });
+
           req.on("end", async () => {
             try {
               // Create a new Order
@@ -111,31 +114,46 @@ const server = http.createServer((req, res) => {
 
               // Search the product in JSON
               const indexProduct = products.findIndex(
-                (product) => product.id === productId
+                (product) => product.id === parseInt(productId)
               );
 
               if (indexProduct === -1) {
-                res.statusCode = 401;
+                res.statusCode = 404;
                 Log("ERROR POST /orders - Incorrect product ID");
-                return res.end(
-                  JSON.stringify({ error: "not enough stock available" })
-                );
+                return res.end(JSON.stringify({ error: "Product not found" }));
               }
 
+              console.log(products[indexProduct]);
+              console.log(quantity);
+
+              if (products[indexProduct].stock < quantity) {
+                res.statusCode = 400;
+                Log("ERROR POST /orders - Insufficient stock");
+                return res.end(
+                  JSON.stringify({ error: "Not enough stock available" })
+                );
+              }
+              console.log(client);
+              console.log(productId);
+              console.log(quantity);
+              console.log(total);
+              if (!client || !productId || !quantity || !total) {
+                res.statusCode = 400;
+                Log("POST /orders - Missing required failed");
+                return res.end(
+                  JSON.stringify({
+                    error: "Missing required fields",
+                  })
+                );
+              }
               // update the stock
               products[indexProduct].stock -= quantity;
 
-              if (products[indexProduct].stock <= 0) {
-                res.statusCode = 400;
-                Log("ERROR POST /orders - There isn't stock available");
-                return res.end(
-                  JSON.stringify({ error: "There isn't stock available" })
-                );
-              }
               const newOrder = new Order(client, productId, quantity, total);
-              await updateFile(productsPath, products);
 
+              await updateFile(productsPath, products);
               await addNewItemFile(newOrder, ordersPath);
+
               res.statusCode = 201;
               res.end(JSON.stringify(newOrder));
               Log(
@@ -144,15 +162,123 @@ const server = http.createServer((req, res) => {
                 )}`
               );
             } catch (err) {
-              res.statusCode = 404;
-              Log(
-                "ERROR - POST /orders - There is an error in the creation of an order"
-              );
+              res.statusCode = 500;
+              Log("ERROR - POST /orders - Failed to create order");
+              return res.end(JSON.stringify({ error: err, code: 404 }));
             }
           });
           break;
         }
+        default: {
+          res.statusCode = 404;
+          Log("Error : Rounte not found");
+          res.end(JSON.stringify({ error: "Route not found" }));
+          break;
+        }
       }
+      break;
+    case "PUT": {
+      // GET index at the URL
+      const index = parseInt(url.split("/")[2]);
+      const newUrl = url.slice(0, url.length - 1);
+
+      if (newUrl === "/products/") {
+        let body = "";
+        // Read the data
+        req.on("data", (chunk) => {
+          body += chunk.toString();
+        });
+
+        req.on("end", async () => {
+          const productsArr = await loadFile(productsPath);
+          const { name, price, stock } = JSON.parse(body);
+
+          //Search the product
+          const indexProduct = productsArr.findIndex(
+            (product) => product.id === index
+          );
+
+          if (indexProduct === -1) {
+            Log("ERROR PUT /products/:index - Index not found");
+            res.statusCode = 404;
+            return res.end(
+              JSON.stringify({ error: "Index not found", code: 404 })
+            );
+          }
+
+          productsArr[indexProduct].name = name;
+          productsArr[indexProduct].price = price;
+          productsArr[indexProduct].stock = stock;
+
+          await updateFile(productsPath, productsArr);
+          res.statusCode = 200;
+          Log(
+            `/PUT /products/:i - Update Successfully ${JSON.stringify(
+              productsArr[indexProduct]
+            )}`
+          );
+          return res.end(JSON.stringify(productsArr[indexProduct]));
+        });
+      } else {
+        res.statusCode = 404;
+        Log("ERROR PUT /productss/:index - Route not found");
+        return res.end(JSON.stringify({ error: "Route not found", code: 404 }));
+      }
+      break;
+    }
+    case "DELETE": {
+      const index = parseInt(url.split("/")[2]);
+      const newUrl = url.slice(0, url.length - 1);
+
+      if (newUrl === "/products/") {
+        req.on("end", async () => {
+          // GET products
+          const products = await loadFile(productsPath);
+
+          // Search index
+          const productIndex = products.findIndex(
+            (product) => product.id === index
+          );
+
+          if (productIndex !== -1) {
+            const productsUpd = products.filter(
+              (product) => product.id !== index
+            );
+            await updateFile(productsPath, productsUpd);
+            Log(
+              `DELETE /products - Delete product successfully : ${JSON.stringify(
+                products[productIndex]
+              )}`
+            );
+            res.statusCode = 200;
+            return res.end(
+              JSON.stringify({
+                message: "Delete successfully",
+                data: products[productIndex],
+              })
+            );
+          } else {
+            res.statusCode = 400;
+            Log("ERROR DELETE /products:index - Index not found");
+            return res.end(
+              JSON.stringify({ error: "Index not found", code: 400 })
+            );
+          }
+        });
+        req.on("data", () => {});
+      }
+      break;
+    }
+    default: {
+      res.statusCode = 405;
+      Log("ERROR - Method not allowed");
+      return res.end(
+        JSON.stringify({
+          error: "Method not allowed",
+        })
+      );
+      break;
+    }
   }
 });
 

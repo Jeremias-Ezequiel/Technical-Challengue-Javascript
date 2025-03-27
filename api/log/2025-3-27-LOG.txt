@@ -310,3 +310,983 @@
 3/27/2025 - 9:00:07 A - POST /products - Product created successfully: {"id":1,"name":"PS5","price":12.2,"stock":10} 
 3/27/2025 - 9:00:46 A - Server listening on port http://localhost:4000 
 3/27/2025 - 9:00:55 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:13:08 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:13:38 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:13:51 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:14:53 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:15:10 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:15:23 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:16:10 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:16:32 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:17:16 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:18:36 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:20:31 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:20:36 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:21:13 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:21:24 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:22:09 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:22:38 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:23:58 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:24:04 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:29:06 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:29:48 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:29:55 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:30:05 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:31:30 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:31:43 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:31:59 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:32:06 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:32:09 A - File reading successfully: data/products.json 
+3/27/2025 - 9:32:49 A - File reading successfully: data/products.json 
+3/27/2025 - 9:32:49 A - File update successfully 
+3/27/2025 - 9:32:49 A - POST /products - Product created successfully: {"id":1,"name":"PS5","price":12.2,"stock":10} 
+3/27/2025 - 9:33:01 A - File reading successfully: data/products.json 
+3/27/2025 - 9:33:01 A - File update successfully 
+3/27/2025 - 9:33:01 A - POST /products - Product created successfully: {"id":2,"name":"PS4","price":9.2,"stock":4} 
+3/27/2025 - 9:33:23 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:33:48 A - File reading successfully: data/products.json 
+3/27/2025 - 9:34:02 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:34:04 A - File reading successfully: data/products.json 
+3/27/2025 - 9:35:12 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:35:30 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:36:07 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:36:09 A - File reading successfully: data/products.json 
+3/27/2025 - 9:36:22 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:36:23 A - File reading successfully: data/products.json 
+3/27/2025 - 9:37:06 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:37:16 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:37:24 A - File reading successfully: data/products.json 
+3/27/2025 - 9:38:20 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:39:01 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:39:06 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:39:26 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:40:25 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:41:02 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:42:24 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:42:50 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:43:00 A - File reading successfully: data/products.json 
+3/27/2025 - 9:43:00 A - GET /products: [{"id":1,"name":"PS5","price":12.2,"stock":10},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 9:43:34 A - File reading successfully: data/products.json 
+3/27/2025 - 9:43:47 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:43:59 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:44:01 A - File reading successfully: data/products.json 
+3/27/2025 - 9:44:19 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:44:20 A - File reading successfully: data/products.json 
+3/27/2025 - 9:44:37 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:44:40 A - File reading successfully: data/products.json 
+3/27/2025 - 9:44:52 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:45:38 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:45:39 A - File reading successfully: data/products.json 
+3/27/2025 - 9:45:53 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:45:56 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:45:58 A - File reading successfully: data/products.json 
+3/27/2025 - 9:45:58 A - File update successfully 
+3/27/2025 - 9:45:58 A - /PUT /products/:i - Update Successfully {"id":1,"name":"Test update","price":999,"stock":11} 
+3/27/2025 - 9:46:30 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:46:31 A - File reading successfully: data/products.json 
+3/27/2025 - 9:46:31 A - File update successfully 
+3/27/2025 - 9:46:31 A - /PUT /products/:i - Update Successfully {"id":1,"name":"Test update","price":999,"stock":11} 
+3/27/2025 - 9:46:34 A - File reading successfully: data/products.json 
+3/27/2025 - 9:46:34 A - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:37:20  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:37:22  - File reading successfully: data/products.json 
+3/27/2025 - 10:38:16  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:38:20  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:38:27  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:38:30  - File reading successfully: data/products.json 
+3/27/2025 - 10:39:18  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:39:41  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:40:14  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:40:29  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:42:34  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:42:54  - File reading successfully: data/products.json 
+3/27/2025 - 10:42:54  - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:43:01  - File reading successfully: data/products.json 
+3/27/2025 - 10:43:56  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:43:58  - File reading successfully: data/products.json 
+3/27/2025 - 10:44:15  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:44:17  - File reading successfully: data/products.json 
+3/27/2025 - 10:44:51  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:44:52  - File reading successfully: data/products.json 
+3/27/2025 - 10:45:14  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:45:16  - File reading successfully: data/products.json 
+3/27/2025 - 10:45:20  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:45:31  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:45:32  - File reading successfully: data/products.json 
+3/27/2025 - 10:45:45  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:45:46  - File reading successfully: data/products.json 
+3/27/2025 - 10:48:29  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:48:39  - File reading successfully: data/products.json 
+3/27/2025 - 10:48:39  - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:48:45  - File reading successfully: data/products.json 
+3/27/2025 - 10:48:45  - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:48:48  - File reading successfully: data/products.json 
+3/27/2025 - 10:48:48  - File update successfully 
+3/27/2025 - 10:48:48  - /PUT /products/:i - Update Successfully {"id":1,"name":"Test update","price":999,"stock":11} 
+3/27/2025 - 10:48:52  - File reading successfully: data/products.json 
+3/27/2025 - 10:48:52  - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:49:05  - File reading successfully: data/products.json 
+3/27/2025 - 10:49:05  - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:49:20  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:49:42  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:49:54  - File reading successfully: data/products.json 
+3/27/2025 - 10:49:54  - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:49:58  - File reading successfully: data/products.json 
+3/27/2025 - 10:49:58  - File update successfully 
+3/27/2025 - 10:50:02  - File reading successfully: data/products.json 
+3/27/2025 - 10:50:02  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 10:50:48  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:51:06  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:51:20  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:53:13  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:53:43  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:54:00  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:55:06  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:55:35  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:56:14  - Server listening on port http://localhost:4000 
+3/27/2025 - 10:56:27  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:03:22  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:03:29  - File reading successfully: data/products.json 
+3/27/2025 - 12:03:29  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:03:29  - File reading successfully: data/orders.json 
+3/27/2025 - 12:03:29  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:03:34  - File reading successfully: data/products.json 
+3/27/2025 - 12:03:34  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:03:34  - File reading successfully: data/orders.json 
+3/27/2025 - 12:03:34  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:04:28  - File reading successfully: data/products.json 
+3/27/2025 - 12:04:28  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:04:28  - File reading successfully: data/orders.json 
+3/27/2025 - 12:04:28  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:04:37  - File reading successfully: data/products.json 
+3/27/2025 - 12:04:37  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:04:37  - File reading successfully: data/orders.json 
+3/27/2025 - 12:04:37  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:04:44  - File reading successfully: data/products.json 
+3/27/2025 - 12:04:44  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:04:48  - File reading successfully: data/products.json 
+3/27/2025 - 12:04:48  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:04:48  - File reading successfully: data/orders.json 
+3/27/2025 - 12:04:48  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:04:50  - File reading successfully: data/products.json 
+3/27/2025 - 12:04:50  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:04:50  - File reading successfully: data/orders.json 
+3/27/2025 - 12:04:50  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:05:02  - File reading successfully: data/products.json 
+3/27/2025 - 12:05:02  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:05:02  - File reading successfully: data/orders.json 
+3/27/2025 - 12:05:02  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:05:22  - File reading successfully: data/products.json 
+3/27/2025 - 12:05:22  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:05:22  - File reading successfully: data/orders.json 
+3/27/2025 - 12:05:22  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:05:38  - File reading successfully: data/products.json 
+3/27/2025 - 12:05:38  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:05:38  - File reading successfully: data/orders.json 
+3/27/2025 - 12:05:38  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:05:42  - File reading successfully: data/products.json 
+3/27/2025 - 12:05:42  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:05:42  - File reading successfully: data/orders.json 
+3/27/2025 - 12:05:42  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:05:56  - File reading successfully: data/products.json 
+3/27/2025 - 12:05:56  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:05:56  - File reading successfully: data/orders.json 
+3/27/2025 - 12:05:56  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:07:29  - File reading successfully: data/products.json 
+3/27/2025 - 12:07:29  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:07:29  - File reading successfully: data/orders.json 
+3/27/2025 - 12:07:29  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:08:04  - File reading successfully: data/products.json 
+3/27/2025 - 12:08:04  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:08:04  - File reading successfully: data/orders.json 
+3/27/2025 - 12:08:04  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:08:34  - File reading successfully: data/products.json 
+3/27/2025 - 12:08:34  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:08:34  - File reading successfully: data/orders.json 
+3/27/2025 - 12:08:34  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:08:56  - File reading successfully: data/products.json 
+3/27/2025 - 12:08:56  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:08:56  - File reading successfully: data/orders.json 
+3/27/2025 - 12:08:56  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:09:12  - File reading successfully: data/products.json 
+3/27/2025 - 12:09:12  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:09:12  - File reading successfully: data/orders.json 
+3/27/2025 - 12:09:12  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:11:08  - File reading successfully: data/products.json 
+3/27/2025 - 12:11:08  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:11:08  - File reading successfully: data/orders.json 
+3/27/2025 - 12:11:08  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:11:26  - File reading successfully: data/products.json 
+3/27/2025 - 12:11:26  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:11:26  - File reading successfully: data/orders.json 
+3/27/2025 - 12:11:26  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:12:19  - File reading successfully: data/products.json 
+3/27/2025 - 12:12:19  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:12:19  - File reading successfully: data/orders.json 
+3/27/2025 - 12:12:19  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:12:22  - File reading successfully: data/products.json 
+3/27/2025 - 12:12:22  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:12:47  - ERROR PUT - Route not found 
+3/27/2025 - 12:12:47  - File reading successfully: data/products.json 
+3/27/2025 - 12:12:47  - File reading successfully: data/products.json 
+3/27/2025 - 12:12:47  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:12:47  - File update successfully 
+3/27/2025 - 12:12:47  - POST /products - Product created successfully: {"id":1,"name":"Test in live","price":"1","stock":""} 
+3/27/2025 - 12:12:49  - ERROR PUT - Route not found 
+3/27/2025 - 12:12:49  - File reading successfully: data/products.json 
+3/27/2025 - 12:12:49  - File reading successfully: data/products.json 
+3/27/2025 - 12:12:49  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4},{"id":1,"name":"Test in live","price":"1","stock":""}] 
+3/27/2025 - 12:12:49  - File update successfully 
+3/27/2025 - 12:12:49  - POST /products - Product created successfully: {"id":2,"name":"Test in live","price":"1","stock":"2"} 
+3/27/2025 - 12:12:53  - File reading successfully: data/products.json 
+3/27/2025 - 12:12:53  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4},{"id":1,"name":"Test in live","price":"1","stock":""},{"id":2,"name":"Test in live","price":"1","stock":"2"}] 
+3/27/2025 - 12:12:55  - ERROR PUT - Route not found 
+3/27/2025 - 12:12:55  - File reading successfully: data/products.json 
+3/27/2025 - 12:12:55  - File update successfully 
+3/27/2025 - 12:12:55  - POST /products - Product created successfully: {"id":3,"name":"","price":"","stock":""} 
+3/27/2025 - 12:12:55  - File reading successfully: data/products.json 
+3/27/2025 - 12:12:55  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4},{"id":1,"name":"Test in live","price":"1","stock":""},{"id":2,"name":"Test in live","price":"1","stock":"2"},{"id":3,"name":"","price":"","stock":""}] 
+3/27/2025 - 12:12:58  - ERROR PUT - Route not found 
+3/27/2025 - 12:12:58  - File reading successfully: data/products.json 
+3/27/2025 - 12:12:58  - File reading successfully: data/products.json 
+3/27/2025 - 12:12:58  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4},{"id":1,"name":"Test in live","price":"1","stock":""},{"id":2,"name":"Test in live","price":"1","stock":"2"},{"id":3,"name":"","price":"","stock":""}] 
+3/27/2025 - 12:12:58  - File update successfully 
+3/27/2025 - 12:12:58  - POST /products - Product created successfully: {"id":4,"name":"","price":"","stock":""} 
+3/27/2025 - 12:13:06  - File reading successfully: data/products.json 
+3/27/2025 - 12:13:06  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4},{"id":1,"name":"Test in live","price":"1","stock":""},{"id":2,"name":"Test in live","price":"1","stock":"2"},{"id":3,"name":"","price":"","stock":""},{"id":4,"name":"","price":"","stock":""}] 
+3/27/2025 - 12:13:06  - File reading successfully: data/orders.json 
+3/27/2025 - 12:13:06  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:13:08  - ERROR PUT - Route not found 
+3/27/2025 - 12:13:08  - File reading successfully: data/products.json 
+3/27/2025 - 12:13:08  - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 12:13:14  - ERROR PUT - Route not found 
+3/27/2025 - 12:13:14  - File reading successfully: data/products.json 
+3/27/2025 - 12:13:14  - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 12:13:18  - ERROR PUT - Route not found 
+3/27/2025 - 12:13:18  - File reading successfully: data/products.json 
+3/27/2025 - 12:13:18  - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 12:13:19  - ERROR PUT - Route not found 
+3/27/2025 - 12:13:19  - File reading successfully: data/products.json 
+3/27/2025 - 12:13:19  - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 12:13:21  - File reading successfully: data/products.json 
+3/27/2025 - 12:13:21  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4},{"id":1,"name":"Test in live","price":"1","stock":""},{"id":2,"name":"Test in live","price":"1","stock":"2"},{"id":3,"name":"","price":"","stock":""},{"id":4,"name":"","price":"","stock":""}] 
+3/27/2025 - 12:13:21  - File reading successfully: data/orders.json 
+3/27/2025 - 12:13:21  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:13:31  - ERROR PUT - Route not found 
+3/27/2025 - 12:13:31  - File reading successfully: data/products.json 
+3/27/2025 - 12:13:31  - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 12:13:33  - File reading successfully: data/products.json 
+3/27/2025 - 12:13:33  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4},{"id":1,"name":"Test in live","price":"1","stock":""},{"id":2,"name":"Test in live","price":"1","stock":"2"},{"id":3,"name":"","price":"","stock":""},{"id":4,"name":"","price":"","stock":""}] 
+3/27/2025 - 12:13:33  - File reading successfully: data/orders.json 
+3/27/2025 - 12:13:33  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:13:45  - ERROR PUT - Route not found 
+3/27/2025 - 12:13:45  - File reading successfully: data/products.json 
+3/27/2025 - 12:13:45  - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 12:15:33  - ERROR PUT - Route not found 
+3/27/2025 - 12:15:33  - File reading successfully: data/products.json 
+3/27/2025 - 12:15:33  - ERROR POST /orders - There isn't stock available 
+3/27/2025 - 12:15:40  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:15:42  - ERROR PUT - Route not found 
+3/27/2025 - 12:15:42  - File reading successfully: data/products.json 
+3/27/2025 - 12:15:42  - ERROR POST /orders - There isn't stock available 
+3/27/2025 - 12:16:20  - ERROR PUT - Route not found 
+3/27/2025 - 12:16:20  - File reading successfully: data/products.json 
+3/27/2025 - 12:16:20  - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 12:16:25  - ERROR PUT - Route not found 
+3/27/2025 - 12:16:25  - File reading successfully: data/products.json 
+3/27/2025 - 12:16:25  - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 12:17:10  - File reading successfully: data/products.json 
+3/27/2025 - 12:17:10  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4},{"id":1,"name":"Test in live","price":"1","stock":""},{"id":2,"name":"Test in live","price":"1","stock":"2"},{"id":3,"name":"","price":"","stock":""},{"id":4,"name":"","price":"","stock":""}] 
+3/27/2025 - 12:17:21  - ERROR PUT - Route not found 
+3/27/2025 - 12:17:21  - File reading successfully: data/products.json 
+3/27/2025 - 12:17:21  - ERROR POST /orders - There isn't stock available 
+3/27/2025 - 12:17:51  - ERROR PUT - Route not found 
+3/27/2025 - 12:17:51  - File reading successfully: data/products.json 
+3/27/2025 - 12:17:51  - ERROR POST /orders - There isn't stock available 
+3/27/2025 - 12:18:26  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:18:29  - ERROR PUT - Route not found 
+3/27/2025 - 12:18:29  - File reading successfully: data/products.json 
+3/27/2025 - 12:18:29  - ERROR POST /orders - There isn't stock available 
+3/27/2025 - 12:18:49  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:19:11  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:19:13  - ERROR PUT - Route not found 
+3/27/2025 - 12:19:13  - File reading successfully: data/products.json 
+3/27/2025 - 12:19:13  - ERROR POST /orders - There isn't stock available 
+3/27/2025 - 12:19:25  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:19:46  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:20:10  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:20:20  - ERROR PUT - Route not found 
+3/27/2025 - 12:20:20  - File reading successfully: data/products.json 
+3/27/2025 - 12:20:20  - ERROR POST /orders - There isn't stock available 
+3/27/2025 - 12:22:50  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:27:02  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:27:06  - ERROR PUT - Route not found 
+3/27/2025 - 12:27:06  - File reading successfully: data/products.json 
+3/27/2025 - 12:27:06  - ERROR POST /orders - Insufficient stock 
+3/27/2025 - 12:27:09  - File reading successfully: data/products.json 
+3/27/2025 - 12:27:09  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4},{"id":1,"name":"Test in live","price":"1","stock":""},{"id":2,"name":"Test in live","price":"1","stock":"2"},{"id":3,"name":"","price":"","stock":""},{"id":4,"name":"","price":"","stock":""}] 
+3/27/2025 - 12:27:30  - ERROR PUT - Route not found 
+3/27/2025 - 12:27:30  - File reading successfully: data/products.json 
+3/27/2025 - 12:27:30  - File update successfully 
+3/27/2025 - 12:27:30  - POST /products - Product created successfully: {"id":1,"name":"PS4","price":9.2,"stock":4} 
+3/27/2025 - 12:27:37  - File reading successfully: data/products.json 
+3/27/2025 - 12:27:37  - File update successfully 
+3/27/2025 - 12:27:37  - /PUT /products/:i - Update Successfully {"id":1,"name":"Test update","price":999,"stock":11} 
+3/27/2025 - 12:27:40  - File reading successfully: data/products.json 
+3/27/2025 - 12:27:40  - GET /products: [{"id":2,"name":"PS4","price":9.2,"stock":4},{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"Test in live","price":"1","stock":"2"},{"id":3,"name":"","price":"","stock":""},{"id":4,"name":"","price":"","stock":""},{"id":1,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 12:27:53  - ERROR - Method not allowed 
+3/27/2025 - 12:27:56  - ERROR - Method not allowed 
+3/27/2025 - 12:28:00  - File reading successfully: data/products.json 
+3/27/2025 - 12:28:00  - File update successfully 
+3/27/2025 - 12:28:00  - DELETE /products - Delete product successfully : {"id":2,"name":"Test in live","price":"1","stock":"2"} 
+3/27/2025 - 12:28:05  - File reading successfully: data/orders.json 
+3/27/2025 - 12:28:05  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:36:15  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:36:44  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:36:52  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:38:40  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:39:12  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:40:39  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:41:03  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:41:16  - File reading successfully: data/orders.json 
+3/27/2025 - 12:41:16  - GET /orders: [{"id":1,"client":"Omonte Jeremias from Postman","productId":2,"quantity":10,"total":123},{"id":2,"client":"Omonte Ezequiel","productId":3,"quantity":1,"total":200},{"id":3,"client":"Omonte Kevin","productId":4,"quantity":10,"total":30}] 
+3/27/2025 - 12:41:44  - ERROR PUT - Route not found 
+3/27/2025 - 12:41:44  - File reading successfully: data/products.json 
+3/27/2025 - 12:41:44  - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 12:42:26  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:42:45  - ERROR PUT - Route not found 
+3/27/2025 - 12:42:45  - File reading successfully: data/products.json 
+3/27/2025 - 12:42:45  - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 12:43:48  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:45:11  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:45:36  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:46:28  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:46:29  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:46:36  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:46:47  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:47:05  - ERROR PUT - Route not found 
+3/27/2025 - 12:47:05  - File reading successfully: data/products.json 
+3/27/2025 - 12:47:05  - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 12:47:55  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:48:16  - ERROR PUT - Route not found 
+3/27/2025 - 12:48:16  - File reading successfully: data/products.json 
+3/27/2025 - 12:48:16  - File update successfully 
+3/27/2025 - 12:48:16  - POST /products - Product created successfully: {"id":1,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:48:20  - ERROR PUT - Route not found 
+3/27/2025 - 12:48:20  - File reading successfully: data/products.json 
+3/27/2025 - 12:48:20  - File update successfully 
+3/27/2025 - 12:48:20  - POST /products - Product created successfully: {"id":2,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:48:22  - ERROR PUT - Route not found 
+3/27/2025 - 12:48:22  - File reading successfully: data/products.json 
+3/27/2025 - 12:48:22  - File update successfully 
+3/27/2025 - 12:48:22  - POST /products - Product created successfully: {"id":3,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:48:23  - ERROR PUT - Route not found 
+3/27/2025 - 12:48:23  - File reading successfully: data/products.json 
+3/27/2025 - 12:48:23  - File update successfully 
+3/27/2025 - 12:48:23  - POST /products - Product created successfully: {"id":4,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:48:26  - File reading successfully: data/products.json 
+3/27/2025 - 12:48:26  - GET /products: [{"id":1,"name":"Playstation 5","price":100,"stock":100},{"id":2,"name":"Playstation 5","price":100,"stock":100},{"id":3,"name":"Playstation 5","price":100,"stock":100},{"id":4,"name":"Playstation 5","price":100,"stock":100}] 
+3/27/2025 - 12:50:10  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:50:12  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:50:15  - ERROR PUT - Route not found 
+3/27/2025 - 12:50:15  - File reading successfully: data/products.json 
+3/27/2025 - 12:50:15  - File update successfully 
+3/27/2025 - 12:50:15  - POST /products - Product created successfully: {"id":1,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:50:18  - ERROR PUT - Route not found 
+3/27/2025 - 12:50:18  - File reading successfully: data/products.json 
+3/27/2025 - 12:50:18  - File update successfully 
+3/27/2025 - 12:50:18  - POST /products - Product created successfully: {"id":2,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:50:53  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:50:54  - ERROR PUT - Route not found 
+3/27/2025 - 12:50:54  - File reading successfully: data/products.json 
+3/27/2025 - 12:50:54  - File update successfully 
+3/27/2025 - 12:50:54  - POST /products - Product created successfully: {"id":1,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:50:56  - ERROR PUT - Route not found 
+3/27/2025 - 12:50:56  - File reading successfully: data/products.json 
+3/27/2025 - 12:50:56  - File update successfully 
+3/27/2025 - 12:50:56  - POST /products - Product created successfully: {"id":2,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:51:15  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:52:08  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:52:10  - ERROR PUT - Route not found 
+3/27/2025 - 12:52:10  - File reading successfully: data/products.json 
+3/27/2025 - 12:52:10  - File update successfully 
+3/27/2025 - 12:52:10  - POST /products - Product created successfully: {"id":1,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:52:39  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:52:40  - ERROR PUT - Route not found 
+3/27/2025 - 12:52:40  - File reading successfully: data/products.json 
+3/27/2025 - 12:52:40  - File update successfully 
+3/27/2025 - 12:52:40  - POST /products - Product created successfully: {"id":1,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:52:44  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:52:54  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:52:57  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:52:58  - ERROR PUT - Route not found 
+3/27/2025 - 12:52:58  - File reading successfully: data/products.json 
+3/27/2025 - 12:52:58  - File update successfully 
+3/27/2025 - 12:52:58  - POST /products - Product created successfully: {"id":1,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:53:14  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:53:33  - ERROR PUT - Route not found 
+3/27/2025 - 12:53:33  - File reading successfully: data/products.json 
+3/27/2025 - 12:53:33  - File update successfully 
+3/27/2025 - 12:53:33  - POST /products - Product created successfully: {"id":1,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:53:36  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:53:37  - ERROR PUT - Route not found 
+3/27/2025 - 12:53:37  - File reading successfully: data/products.json 
+3/27/2025 - 12:53:37  - File update successfully 
+3/27/2025 - 12:53:37  - POST /products - Product created successfully: {"id":1,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:53:41  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:53:48  - ERROR PUT - Route not found 
+3/27/2025 - 12:53:52  - ERROR PUT - Route not found 
+3/27/2025 - 12:53:52  - File reading successfully: data/products.json 
+3/27/2025 - 12:53:52  - File update successfully 
+3/27/2025 - 12:53:52  - POST /products - Product created successfully: {"id":1,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:54:08  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:54:10  - ERROR PUT /productss/:index - Route not found 
+3/27/2025 - 12:54:10  - File reading successfully: data/products.json 
+3/27/2025 - 12:54:10  - File update successfully 
+3/27/2025 - 12:54:10  - POST /products - Product created successfully: {"id":1,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:58:20  - Server listening on port http://localhost:4000 
+3/27/2025 - 12:58:42  - File reading successfully: data/products.json 
+3/27/2025 - 12:58:42  - File update successfully 
+3/27/2025 - 12:58:42  - POST /products - Product created successfully: {"id":1,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:58:46  - File reading successfully: data/products.json 
+3/27/2025 - 12:58:46  - GET /products: [{"id":1,"name":"Playstation 5","price":100,"stock":100},{"id":2,"name":"Playstation 5","price":100,"stock":100},{"id":3,"name":"Playstation 5","price":100,"stock":100},{"id":4,"name":"Playstation 5","price":100,"stock":100},{"id":1,"name":"Playstation 5","price":100,"stock":100},{"id":2,"name":"Playstation 5","price":100,"stock":100},{"id":1,"name":"Playstation 5","price":100,"stock":100},{"id":2,"name":"Playstation 5","price":100,"stock":100},{"id":1,"name":"Playstation 5","price":100,"stock":100},{"id":1,"name":"Playstation 5","price":100,"stock":100},{"id":1,"name":"Playstation 5","price":100,"stock":100},{"id":1,"name":"Playstation 5","price":100,"stock":100},{"id":1,"name":"Playstation 5","price":100,"stock":100},{"id":1,"name":"Playstation 5","price":100,"stock":100},{"id":1,"name":"Playstation 5","price":100,"stock":100},{"id":1,"name":"Playstation 5","price":100,"stock":100}] 
+3/27/2025 - 12:59:08  - File reading successfully: data/products.json 
+3/27/2025 - 12:59:08  - GET /products: [] 
+3/27/2025 - 12:59:17  - File reading successfully: data/products.json 
+3/27/2025 - 12:59:17  - File update successfully 
+3/27/2025 - 12:59:17  - POST /products - Product created successfully: {"id":2,"name":"Playstation 5","price":100,"stock":100} 
+3/27/2025 - 12:59:31  - File reading successfully: data/products.json 
+3/27/2025 - 12:59:31  - File update successfully 
+3/27/2025 - 12:59:31  - POST /products - Product created successfully: {"id":3,"name":"Playstation 4","price":100,"stock":100} 
+3/27/2025 - 12:59:36  - File reading successfully: data/products.json 
+3/27/2025 - 12:59:36  - File update successfully 
+3/27/2025 - 12:59:36  - POST /products - Product created successfully: {"id":4,"name":"Playstation 12","price":100,"stock":100} 
+3/27/2025 - 12:59:39  - File reading successfully: data/products.json 
+3/27/2025 - 12:59:39  - GET /products: [{"id":2,"name":"Playstation 5","price":100,"stock":100},{"id":3,"name":"Playstation 4","price":100,"stock":100},{"id":4,"name":"Playstation 12","price":100,"stock":100}] 
+3/27/2025 - 1:00:04 P - File reading successfully: data/products.json 
+3/27/2025 - 1:00:04 P - File update successfully 
+3/27/2025 - 1:00:04 P - /PUT /products/:i - Update Successfully {"id":2,"name":"Test update","price":999,"stock":11} 
+3/27/2025 - 1:00:06 P - File reading successfully: data/products.json 
+3/27/2025 - 1:00:06 P - GET /products: [{"id":2,"name":"Test update","price":999,"stock":11},{"id":3,"name":"Playstation 4","price":100,"stock":100},{"id":4,"name":"Playstation 12","price":100,"stock":100}] 
+3/27/2025 - 1:00:11 P - File reading successfully: data/products.json 
+3/27/2025 - 1:00:11 P - File update successfully 
+3/27/2025 - 1:00:11 P - DELETE /products - Delete product successfully : {"id":2,"name":"Test update","price":999,"stock":11} 
+3/27/2025 - 1:00:13 P - File reading successfully: data/products.json 
+3/27/2025 - 1:00:13 P - GET /products: [{"id":3,"name":"Playstation 4","price":100,"stock":100},{"id":4,"name":"Playstation 12","price":100,"stock":100}] 
+3/27/2025 - 1:00:42 P - File reading successfully: data/products.json 
+3/27/2025 - 1:00:42 P - ERROR POST /orders - Insufficient stock 
+3/27/2025 - 1:00:47 P - File reading successfully: data/products.json 
+3/27/2025 - 1:00:47 P - File update successfully 
+3/27/2025 - 1:00:47 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:00:47 P - File update successfully 
+3/27/2025 - 1:00:47 P - POST /orders - Order create successfully {"id":1,"client":"Omonte Kevin","productId":3,"quantity":10,"total":100} 
+3/27/2025 - 1:04:10 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:04:10 P - GET /orders: [{"id":1,"client":"Omonte Kevin","productId":3,"quantity":10,"total":100}] 
+3/27/2025 - 1:10:17 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:10:17 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:17 P - GET /orders: [] 
+3/27/2025 - 1:10:17 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:17 P - GET /products: [] 
+3/27/2025 - 1:10:17 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:17 P - GET /products: [] 
+3/27/2025 - 1:10:17 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:17 P - GET /orders: [] 
+3/27/2025 - 1:10:18 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:18 P - GET /products: [] 
+3/27/2025 - 1:10:18 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:18 P - GET /orders: [] 
+3/27/2025 - 1:10:18 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:18 P - GET /products: [] 
+3/27/2025 - 1:10:18 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:18 P - GET /orders: [] 
+3/27/2025 - 1:10:18 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:18 P - GET /products: [] 
+3/27/2025 - 1:10:18 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:18 P - GET /orders: [] 
+3/27/2025 - 1:10:18 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:18 P - GET /products: [] 
+3/27/2025 - 1:10:18 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:18 P - GET /orders: [] 
+3/27/2025 - 1:10:18 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:18 P - GET /products: [] 
+3/27/2025 - 1:10:19 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:19 P - GET /orders: [] 
+3/27/2025 - 1:10:19 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:19 P - GET /products: [] 
+3/27/2025 - 1:10:19 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:19 P - GET /orders: [] 
+3/27/2025 - 1:10:19 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:19 P - GET /products: [] 
+3/27/2025 - 1:10:19 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:19 P - GET /orders: [] 
+3/27/2025 - 1:10:19 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:19 P - GET /products: [] 
+3/27/2025 - 1:10:19 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:19 P - GET /orders: [] 
+3/27/2025 - 1:10:19 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:19 P - GET /products: [] 
+3/27/2025 - 1:10:19 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:19 P - GET /orders: [] 
+3/27/2025 - 1:10:20 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:20 P - GET /products: [] 
+3/27/2025 - 1:10:20 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:20 P - GET /orders: [] 
+3/27/2025 - 1:10:20 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:20 P - GET /products: [] 
+3/27/2025 - 1:10:20 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:20 P - GET /orders: [] 
+3/27/2025 - 1:10:20 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:20 P - GET /products: [] 
+3/27/2025 - 1:10:20 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:20 P - GET /orders: [] 
+3/27/2025 - 1:10:20 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:20 P - GET /products: [] 
+3/27/2025 - 1:10:20 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:20 P - GET /orders: [] 
+3/27/2025 - 1:10:21 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:21 P - GET /products: [] 
+3/27/2025 - 1:10:21 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:21 P - GET /orders: [] 
+3/27/2025 - 1:10:21 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:21 P - GET /products: [] 
+3/27/2025 - 1:10:21 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:21 P - GET /orders: [] 
+3/27/2025 - 1:10:21 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:21 P - GET /products: [] 
+3/27/2025 - 1:10:21 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:21 P - GET /orders: [] 
+3/27/2025 - 1:10:21 P - GET /products: [] 
+3/27/2025 - 1:10:21 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:21 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:21 P - GET /orders: [] 
+3/27/2025 - 1:10:21 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:21 P - GET /products: [] 
+3/27/2025 - 1:10:21 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:21 P - GET /orders: [] 
+3/27/2025 - 1:10:50 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:10:52 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:52 P - GET /products: [] 
+3/27/2025 - 1:10:52 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:52 P - GET /orders: [] 
+3/27/2025 - 1:10:54 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:54 P - GET /products: [] 
+3/27/2025 - 1:10:54 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:54 P - GET /orders: [] 
+3/27/2025 - 1:10:57 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:57 P - GET /products: [] 
+3/27/2025 - 1:10:58 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:58 P - GET /products: [] 
+3/27/2025 - 1:10:58 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:10:58 P - GET /orders: [] 
+3/27/2025 - 1:10:59 P - File reading successfully: data/products.json 
+3/27/2025 - 1:10:59 P - GET /products: [] 
+3/27/2025 - 1:11:05 P - File reading successfully: data/products.json 
+3/27/2025 - 1:11:05 P - File reading successfully: data/products.json 
+3/27/2025 - 1:11:05 P - ERROR - Error reading the following file path: data/products.json 
+3/27/2025 - 1:11:05 P - GET /products: [] 
+3/27/2025 - 1:11:05 P - File update successfully 
+3/27/2025 - 1:11:05 P - POST /products - Product created successfully: {"id":1,"name":"Test in live","price":"123","stock":"23"} 
+3/27/2025 - 1:11:07 P - File reading successfully: data/products.json 
+3/27/2025 - 1:11:07 P - GET /products: [{"id":1,"name":"Test in live","price":"123","stock":"23"}] 
+3/27/2025 - 1:11:16 P - File reading successfully: data/products.json 
+3/27/2025 - 1:11:16 P - File reading successfully: data/products.json 
+3/27/2025 - 1:11:16 P - GET /products: [{"id":1,"name":"Test in live","price":"123","stock":"23"}] 
+3/27/2025 - 1:11:16 P - File update successfully 
+3/27/2025 - 1:11:16 P - POST /products - Product created successfully: {"id":2,"name":"Test aftert est","price":"23","stock":"32"} 
+3/27/2025 - 1:11:20 P - File reading successfully: data/products.json 
+3/27/2025 - 1:11:20 P - GET /products: [{"id":1,"name":"Test in live","price":"123","stock":"23"},{"id":2,"name":"Test aftert est","price":"23","stock":"32"}] 
+3/27/2025 - 1:11:20 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:11:20 P - GET /orders: [] 
+3/27/2025 - 1:11:25 P - File reading successfully: data/products.json 
+3/27/2025 - 1:11:25 P - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 1:11:28 P - File reading successfully: data/products.json 
+3/27/2025 - 1:11:28 P - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 1:11:30 P - File reading successfully: data/products.json 
+3/27/2025 - 1:11:30 P - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 1:11:33 P - File reading successfully: data/products.json 
+3/27/2025 - 1:11:33 P - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 1:11:36 P - File reading successfully: data/products.json 
+3/27/2025 - 1:11:36 P - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 1:11:37 P - File reading successfully: data/products.json 
+3/27/2025 - 1:11:37 P - GET /products: [{"id":1,"name":"Test in live","price":"123","stock":"23"},{"id":2,"name":"Test aftert est","price":"23","stock":"32"}] 
+3/27/2025 - 1:11:37 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:11:37 P - GET /orders: [] 
+3/27/2025 - 1:11:39 P - File reading successfully: data/products.json 
+3/27/2025 - 1:11:39 P - GET /products: [{"id":1,"name":"Test in live","price":"123","stock":"23"},{"id":2,"name":"Test aftert est","price":"23","stock":"32"}] 
+3/27/2025 - 1:12:00 P - File reading successfully: data/products.json 
+3/27/2025 - 1:12:00 P - GET /products: [{"id":1,"name":"Test in live","price":"123","stock":"23"},{"id":2,"name":"Test aftert est","price":"23","stock":"32"}] 
+3/27/2025 - 1:13:26 P - File reading successfully: data/products.json 
+3/27/2025 - 1:13:26 P - GET /products: [{"id":1,"name":"Test in live","price":"123","stock":"23"},{"id":2,"name":"Test aftert est","price":"23","stock":"32"}] 
+3/27/2025 - 1:13:28 P - File reading successfully: data/products.json 
+3/27/2025 - 1:13:28 P - GET /products: [{"id":1,"name":"Test in live","price":"123","stock":"23"},{"id":2,"name":"Test aftert est","price":"23","stock":"32"}] 
+3/27/2025 - 1:13:28 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:13:28 P - GET /orders: [] 
+3/27/2025 - 1:14:08 P - File reading successfully: data/products.json 
+3/27/2025 - 1:14:08 P - GET /products: [{"id":1,"name":"Test in live","price":"123","stock":"23"},{"id":2,"name":"Test aftert est","price":"23","stock":"32"}] 
+3/27/2025 - 1:14:08 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:14:08 P - GET /orders: [] 
+3/27/2025 - 1:14:21 P - File reading successfully: data/products.json 
+3/27/2025 - 1:14:21 P - GET /products: [{"id":1,"name":"Test in live","price":"123","stock":"23"},{"id":2,"name":"Test aftert est","price":"23","stock":"32"}] 
+3/27/2025 - 1:14:21 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:14:21 P - GET /orders: [] 
+3/27/2025 - 1:14:22 P - File reading successfully: data/products.json 
+3/27/2025 - 1:14:22 P - GET /products: [{"id":1,"name":"Test in live","price":"123","stock":"23"},{"id":2,"name":"Test aftert est","price":"23","stock":"32"}] 
+3/27/2025 - 1:14:22 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:14:22 P - GET /orders: [] 
+3/27/2025 - 1:14:55 P - File reading successfully: data/products.json 
+3/27/2025 - 1:14:55 P - GET /products: [{"id":1,"name":"Test in live","price":"123","stock":"23"},{"id":2,"name":"Test aftert est","price":"23","stock":"32"}] 
+3/27/2025 - 1:14:55 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:14:55 P - GET /orders: [] 
+3/27/2025 - 1:15:08 P - File reading successfully: data/products.json 
+3/27/2025 - 1:15:08 P - GET /products: [{"id":1,"name":"Test in live","price":"123","stock":"23"},{"id":2,"name":"Test aftert est","price":"23","stock":"32"}] 
+3/27/2025 - 1:15:08 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:15:08 P - GET /orders: [] 
+3/27/2025 - 1:15:36 P - File reading successfully: data/products.json 
+3/27/2025 - 1:15:36 P - GET /products: [{"id":1,"name":"Test in live","price":"123","stock":"23"},{"id":2,"name":"Test aftert est","price":"23","stock":"32"}] 
+3/27/2025 - 1:15:36 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:15:36 P - GET /orders: [] 
+3/27/2025 - 1:22:03 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:23:23 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:23:54 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:25:11 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:25:42 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:25:58 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:26:03 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:26:46 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:26:52 P - File reading successfully: data/products.json 
+3/27/2025 - 1:26:52 P - GET /products: [] 
+3/27/2025 - 1:27:02 P - File reading successfully: data/products.json 
+3/27/2025 - 1:27:02 P - File update successfully 
+3/27/2025 - 1:27:02 P - POST /products - Product created successfully: {"id":1,"name":"Playstation 12","price":100,"stock":100} 
+3/27/2025 - 1:27:05 P - File reading successfully: data/products.json 
+3/27/2025 - 1:27:05 P - GET /products: [{"id":1,"name":"Playstation 12","price":100,"stock":100}] 
+3/27/2025 - 1:27:14 P - File reading successfully: data/products.json 
+3/27/2025 - 1:27:14 P - File update successfully 
+3/27/2025 - 1:27:14 P - POST /products - Product created successfully: {"id":2,"name":"Playstation 23","price":100,"stock":100} 
+3/27/2025 - 1:27:17 P - File reading successfully: data/products.json 
+3/27/2025 - 1:27:17 P - GET /products: [{"id":1,"name":"Playstation 12","price":100,"stock":100},{"id":2,"name":"Playstation 23","price":100,"stock":100}] 
+3/27/2025 - 1:27:24 P - File reading successfully: data/products.json 
+3/27/2025 - 1:27:24 P - File update successfully 
+3/27/2025 - 1:27:24 P - /PUT /products/:i - Update Successfully {"id":1,"name":"Test update","price":999,"stock":11} 
+3/27/2025 - 1:27:27 P - File reading successfully: data/products.json 
+3/27/2025 - 1:27:27 P - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"Playstation 23","price":100,"stock":100}] 
+3/27/2025 - 1:27:32 P - File reading successfully: data/products.json 
+3/27/2025 - 1:27:32 P - File update successfully 
+3/27/2025 - 1:27:32 P - DELETE /products - Delete product successfully : {"id":1,"name":"Test update","price":999,"stock":11} 
+3/27/2025 - 1:27:36 P - File reading successfully: data/products.json 
+3/27/2025 - 1:27:36 P - GET /products: [{"id":2,"name":"Playstation 23","price":100,"stock":100}] 
+3/27/2025 - 1:27:41 P - File reading successfully: data/products.json 
+3/27/2025 - 1:27:41 P - File update successfully 
+3/27/2025 - 1:27:41 P - POST /products - Product created successfully: {"id":3,"name":"Playstation 123","price":100,"stock":100} 
+3/27/2025 - 1:27:44 P - File reading successfully: data/products.json 
+3/27/2025 - 1:27:44 P - GET /products: [{"id":2,"name":"Playstation 23","price":100,"stock":100},{"id":3,"name":"Playstation 123","price":100,"stock":100}] 
+3/27/2025 - 1:27:48 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:27:48 P - GET /orders: [] 
+3/27/2025 - 1:27:53 P - File reading successfully: data/products.json 
+3/27/2025 - 1:27:53 P - GET /products: [{"id":2,"name":"Playstation 23","price":100,"stock":100},{"id":3,"name":"Playstation 123","price":100,"stock":100}] 
+3/27/2025 - 1:28:03 P - File reading successfully: data/products.json 
+3/27/2025 - 1:28:03 P - File update successfully 
+3/27/2025 - 1:28:04 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:28:04 P - File update successfully 
+3/27/2025 - 1:28:04 P - POST /orders - Order create successfully {"id":{},"client":"Omonte Kevin","productId":2,"quantity":10,"total":100} 
+3/27/2025 - 1:28:12 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:28:12 P - GET /orders: [{"id":{},"client":"Omonte Kevin","productId":2,"quantity":10,"total":100}] 
+3/27/2025 - 1:28:25 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:29:55 P - File reading successfully: data/products.json 
+3/27/2025 - 1:29:55 P - File update successfully 
+3/27/2025 - 1:29:55 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:29:55 P - File update successfully 
+3/27/2025 - 1:29:55 P - POST /orders - Order create successfully {"id":{},"client":"Omonte Kevin","productId":2,"quantity":10,"total":100} 
+3/27/2025 - 1:29:58 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:29:58 P - GET /orders: [{"id":{},"client":"Omonte Kevin","productId":2,"quantity":10,"total":100},{"id":{},"client":"Omonte Kevin","productId":2,"quantity":10,"total":100}] 
+3/27/2025 - 1:30:29 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:30:44 P - File reading successfully: data/products.json 
+3/27/2025 - 1:30:44 P - File update successfully 
+3/27/2025 - 1:30:44 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:30:44 P - File update successfully 
+3/27/2025 - 1:30:44 P - POST /orders - Order create successfully {"id":1,"client":"Omonte Kevin","productId":2,"quantity":10,"total":100} 
+3/27/2025 - 1:30:47 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:30:47 P - GET /orders: [{"id":1,"client":"Omonte Kevin","productId":2,"quantity":10,"total":100}] 
+3/27/2025 - 1:30:53 P - File reading successfully: data/products.json 
+3/27/2025 - 1:30:53 P - ERROR POST /orders - Insufficient stock 
+3/27/2025 - 1:30:56 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:30:56 P - GET /orders: [{"id":1,"client":"Omonte Kevin","productId":2,"quantity":10,"total":100}] 
+3/27/2025 - 1:31:01 P - File reading successfully: data/products.json 
+3/27/2025 - 1:31:01 P - ERROR POST /orders - Insufficient stock 
+3/27/2025 - 1:31:06 P - File reading successfully: data/products.json 
+3/27/2025 - 1:31:06 P - ERROR POST /orders - Insufficient stock 
+3/27/2025 - 1:31:09 P - File reading successfully: data/products.json 
+3/27/2025 - 1:31:09 P - File update successfully 
+3/27/2025 - 1:31:09 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:31:09 P - File update successfully 
+3/27/2025 - 1:31:09 P - POST /orders - Order create successfully {"id":2,"client":"Omonte Kevin","productId":2,"quantity":70,"total":100} 
+3/27/2025 - 1:31:13 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:31:13 P - GET /orders: [{"id":1,"client":"Omonte Kevin","productId":2,"quantity":10,"total":100},{"id":2,"client":"Omonte Kevin","productId":2,"quantity":70,"total":100}] 
+3/27/2025 - 1:32:17 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:32:19 P - File reading successfully: data/products.json 
+3/27/2025 - 1:32:19 P - GET /products: [{"id":2,"name":"Playstation 23","price":100,"stock":0},{"id":3,"name":"Playstation 123","price":100,"stock":100}] 
+3/27/2025 - 1:32:19 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:32:19 P - GET /orders: [{"id":1,"client":"Omonte Kevin","productId":2,"quantity":10,"total":100},{"id":2,"client":"Omonte Kevin","productId":2,"quantity":70,"total":100}] 
+3/27/2025 - 1:32:25 P - File reading successfully: data/products.json 
+3/27/2025 - 1:32:25 P - GET /products: [{"id":2,"name":"Playstation 23","price":100,"stock":0},{"id":3,"name":"Playstation 123","price":100,"stock":100}] 
+3/27/2025 - 1:32:33 P - File reading successfully: data/products.json 
+3/27/2025 - 1:32:33 P - File reading successfully: data/products.json 
+3/27/2025 - 1:32:33 P - GET /products: [{"id":2,"name":"Playstation 23","price":100,"stock":0},{"id":3,"name":"Playstation 123","price":100,"stock":100}] 
+3/27/2025 - 1:32:33 P - File update successfully 
+3/27/2025 - 1:32:33 P - POST /products - Product created successfully: {"id":1,"name":"Test in live","price":"123","stock":"23"} 
+3/27/2025 - 1:32:37 P - File reading successfully: data/products.json 
+3/27/2025 - 1:32:37 P - GET /products: [{"id":2,"name":"Playstation 23","price":100,"stock":0},{"id":3,"name":"Playstation 123","price":100,"stock":100},{"id":1,"name":"Test in live","price":"123","stock":"23"}] 
+3/27/2025 - 1:32:39 P - File reading successfully: data/products.json 
+3/27/2025 - 1:32:39 P - GET /products: [{"id":2,"name":"Playstation 23","price":100,"stock":0},{"id":3,"name":"Playstation 123","price":100,"stock":100},{"id":1,"name":"Test in live","price":"123","stock":"23"}] 
+3/27/2025 - 1:32:39 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:32:39 P - GET /orders: [{"id":1,"client":"Omonte Kevin","productId":2,"quantity":10,"total":100},{"id":2,"client":"Omonte Kevin","productId":2,"quantity":70,"total":100}] 
+3/27/2025 - 1:32:52 P - File reading successfully: data/products.json 
+3/27/2025 - 1:32:52 P - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 1:33:30 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:33:52 P - File reading successfully: data/products.json 
+3/27/2025 - 1:33:52 P - GET /products: [{"id":2,"name":"Playstation 23","price":100,"stock":0},{"id":3,"name":"Playstation 123","price":100,"stock":100},{"id":1,"name":"Test in live","price":"123","stock":"23"}] 
+3/27/2025 - 1:33:52 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:33:52 P - GET /orders: [{"id":1,"client":"Omonte Kevin","productId":2,"quantity":10,"total":100},{"id":2,"client":"Omonte Kevin","productId":2,"quantity":70,"total":100}] 
+3/27/2025 - 1:34:48 P - File reading successfully: data/products.json 
+3/27/2025 - 1:34:48 P - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 1:34:56 P - File reading successfully: data/products.json 
+3/27/2025 - 1:34:56 P - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 1:35:02 P - File reading successfully: data/products.json 
+3/27/2025 - 1:35:02 P - GET /products: [{"id":2,"name":"Playstation 23","price":100,"stock":0},{"id":3,"name":"Playstation 123","price":100,"stock":100},{"id":1,"name":"Test in live","price":"123","stock":"23"}] 
+3/27/2025 - 1:35:02 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:35:02 P - GET /orders: [{"id":1,"client":"Omonte Kevin","productId":2,"quantity":10,"total":100},{"id":2,"client":"Omonte Kevin","productId":2,"quantity":70,"total":100}] 
+3/27/2025 - 1:35:11 P - File reading successfully: data/products.json 
+3/27/2025 - 1:35:11 P - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 1:36:34 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:36:35 P - File reading successfully: data/products.json 
+3/27/2025 - 1:36:35 P - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 1:39:17 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:39:19 P - File reading successfully: data/products.json 
+3/27/2025 - 1:39:19 P - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 1:39:39 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:39:40 P - File reading successfully: data/products.json 
+3/27/2025 - 1:39:40 P - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 1:40:00 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:40:05 P - File reading successfully: data/products.json 
+3/27/2025 - 1:40:05 P - ERROR POST /orders - Insufficient stock 
+3/27/2025 - 1:40:20 P - File reading successfully: data/products.json 
+3/27/2025 - 1:40:20 P - ERROR POST /orders - Insufficient stock 
+3/27/2025 - 1:40:45 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:41:00 P - File reading successfully: data/products.json 
+3/27/2025 - 1:41:00 P - File update successfully 
+3/27/2025 - 1:41:00 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:41:00 P - File update successfully 
+3/27/2025 - 1:41:00 P - POST /orders - Order create successfully {"id":1,"client":"Omonte Jeremias","productId":"1","quantity":"10","total":1000} 
+3/27/2025 - 1:41:02 P - File reading successfully: data/products.json 
+3/27/2025 - 1:41:02 P - File update successfully 
+3/27/2025 - 1:41:02 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:41:02 P - File update successfully 
+3/27/2025 - 1:41:02 P - POST /orders - Order create successfully {"id":2,"client":"Omonte Jeremias","productId":"1","quantity":"10","total":1000} 
+3/27/2025 - 1:41:23 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:41:24 P - File reading successfully: data/products.json 
+3/27/2025 - 1:41:24 P - ERROR POST /orders - Insufficient stock 
+3/27/2025 - 1:41:46 P - File reading successfully: data/products.json 
+3/27/2025 - 1:41:46 P - File update successfully 
+3/27/2025 - 1:41:46 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:41:46 P - File update successfully 
+3/27/2025 - 1:41:46 P - POST /orders - Order create successfully {"id":1,"client":"Omonte Jeremias","productId":"1","quantity":"1","total":100} 
+3/27/2025 - 1:41:50 P - File reading successfully: data/products.json 
+3/27/2025 - 1:41:50 P - GET /products: [{"id":2,"name":"Playstation 23","price":100,"stock":0},{"id":3,"name":"Playstation 123","price":100,"stock":100},{"id":1,"name":"Test in live","price":"123","stock":2}] 
+3/27/2025 - 1:41:50 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:41:50 P - GET /orders: [{"id":1,"client":"Omonte Kevin","productId":2,"quantity":10,"total":100},{"id":2,"client":"Omonte Kevin","productId":2,"quantity":70,"total":100},{"id":1,"client":"Omonte Jeremias","productId":"1","quantity":"10","total":1000},{"id":2,"client":"Omonte Jeremias","productId":"1","quantity":"10","total":1000},{"id":1,"client":"Omonte Jeremias","productId":"1","quantity":"1","total":100}] 
+3/27/2025 - 1:41:54 P - File reading successfully: data/products.json 
+3/27/2025 - 1:41:54 P - GET /products: [{"id":2,"name":"Playstation 23","price":100,"stock":0},{"id":3,"name":"Playstation 123","price":100,"stock":100},{"id":1,"name":"Test in live","price":"123","stock":2}] 
+3/27/2025 - 1:41:54 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:41:54 P - GET /orders: [{"id":1,"client":"Omonte Kevin","productId":2,"quantity":10,"total":100},{"id":2,"client":"Omonte Kevin","productId":2,"quantity":70,"total":100},{"id":1,"client":"Omonte Jeremias","productId":"1","quantity":"10","total":1000},{"id":2,"client":"Omonte Jeremias","productId":"1","quantity":"10","total":1000},{"id":1,"client":"Omonte Jeremias","productId":"1","quantity":"1","total":100}] 
+3/27/2025 - 1:42:32 P - File reading successfully: data/products.json 
+3/27/2025 - 1:42:32 P - POST /orders - Missing required failed 
+3/27/2025 - 1:42:34 P - File reading successfully: data/products.json 
+3/27/2025 - 1:42:34 P - POST /orders - Missing required failed 
+3/27/2025 - 1:42:36 P - File reading successfully: data/products.json 
+3/27/2025 - 1:42:36 P - POST /orders - Missing required failed 
+3/27/2025 - 1:42:57 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:43:02 P - File reading successfully: data/products.json 
+3/27/2025 - 1:43:02 P - POST /orders - Missing required failed 
+3/27/2025 - 1:43:06 P - File reading successfully: data/products.json 
+3/27/2025 - 1:43:06 P - File update successfully 
+3/27/2025 - 1:43:06 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:43:06 P - File update successfully 
+3/27/2025 - 1:43:06 P - POST /orders - Order create successfully {"id":1,"client":"asd","productId":"1","quantity":"2","total":200} 
+3/27/2025 - 1:43:13 P - File reading successfully: data/products.json 
+3/27/2025 - 1:43:13 P - GET /products: [{"id":2,"name":"Playstation 23","price":100,"stock":0},{"id":3,"name":"Playstation 123","price":100,"stock":100},{"id":1,"name":"Test in live","price":"123","stock":0}] 
+3/27/2025 - 1:43:13 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:43:13 P - GET /orders: [{"id":1,"client":"Omonte Kevin","productId":2,"quantity":10,"total":100},{"id":2,"client":"Omonte Kevin","productId":2,"quantity":70,"total":100},{"id":1,"client":"Omonte Jeremias","productId":"1","quantity":"10","total":1000},{"id":2,"client":"Omonte Jeremias","productId":"1","quantity":"10","total":1000},{"id":1,"client":"Omonte Jeremias","productId":"1","quantity":"1","total":100},{"id":1,"client":"asd","productId":"1","quantity":"2","total":200}] 
+3/27/2025 - 1:43:48 P - Server listening on port http://localhost:4000 
+3/27/2025 - 1:43:50 P - File reading successfully: data/products.json 
+3/27/2025 - 1:43:50 P - ERROR POST /orders - Incorrect product ID 
+3/27/2025 - 1:43:51 P - File reading successfully: data/products.json 
+3/27/2025 - 1:43:51 P - GET /products: [{"id":2,"name":"Playstation 23","price":100,"stock":0},{"id":3,"name":"Playstation 123","price":100,"stock":100},{"id":1,"name":"Test in live","price":"123","stock":0}] 
+3/27/2025 - 1:43:51 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:43:51 P - GET /orders: [{"id":1,"client":"Omonte Kevin","productId":2,"quantity":10,"total":100},{"id":2,"client":"Omonte Kevin","productId":2,"quantity":70,"total":100},{"id":1,"client":"Omonte Jeremias","productId":"1","quantity":"10","total":1000},{"id":2,"client":"Omonte Jeremias","productId":"1","quantity":"10","total":1000},{"id":1,"client":"Omonte Jeremias","productId":"1","quantity":"1","total":100},{"id":1,"client":"asd","productId":"1","quantity":"2","total":200}] 
+3/27/2025 - 1:43:56 P - File reading successfully: data/products.json 
+3/27/2025 - 1:43:56 P - ERROR POST /orders - Insufficient stock 
+3/27/2025 - 1:44:02 P - File reading successfully: data/products.json 
+3/27/2025 - 1:44:02 P - ERROR POST /orders - Insufficient stock 
+3/27/2025 - 1:44:08 P - File reading successfully: data/products.json 
+3/27/2025 - 1:44:08 P - GET /products: [{"id":2,"name":"Playstation 23","price":100,"stock":0},{"id":3,"name":"Playstation 123","price":100,"stock":100},{"id":1,"name":"Test in live","price":"123","stock":0}] 
+3/27/2025 - 1:44:08 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:44:08 P - GET /orders: [{"id":1,"client":"Omonte Kevin","productId":2,"quantity":10,"total":100},{"id":2,"client":"Omonte Kevin","productId":2,"quantity":70,"total":100},{"id":1,"client":"Omonte Jeremias","productId":"1","quantity":"10","total":1000},{"id":2,"client":"Omonte Jeremias","productId":"1","quantity":"10","total":1000},{"id":1,"client":"Omonte Jeremias","productId":"1","quantity":"1","total":100},{"id":1,"client":"asd","productId":"1","quantity":"2","total":200}] 
+3/27/2025 - 1:44:50 P - File reading successfully: data/products.json 
+3/27/2025 - 1:44:50 P - GET /products: [] 
+3/27/2025 - 1:44:59 P - File reading successfully: data/products.json 
+3/27/2025 - 1:44:59 P - File reading successfully: data/products.json 
+3/27/2025 - 1:44:59 P - GET /products: [] 
+3/27/2025 - 1:44:59 P - File update successfully 
+3/27/2025 - 1:44:59 P - POST /products - Product created successfully: {"id":1,"name":"PS5","price":"100","stock":"100"} 
+3/27/2025 - 1:45:01 P - File reading successfully: data/products.json 
+3/27/2025 - 1:45:01 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"}] 
+3/27/2025 - 1:45:07 P - File reading successfully: data/products.json 
+3/27/2025 - 1:45:07 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"}] 
+3/27/2025 - 1:45:07 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:45:07 P - GET /orders: [] 
+3/27/2025 - 1:45:54 P - File reading successfully: data/products.json 
+3/27/2025 - 1:45:54 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"}] 
+3/27/2025 - 1:45:54 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:45:54 P - GET /orders: [] 
+3/27/2025 - 1:46:24 P - File reading successfully: data/products.json 
+3/27/2025 - 1:46:24 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"}] 
+3/27/2025 - 1:46:24 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:46:24 P - GET /orders: [] 
+3/27/2025 - 1:46:50 P - File reading successfully: data/products.json 
+3/27/2025 - 1:46:50 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"}] 
+3/27/2025 - 1:46:50 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:46:50 P - GET /orders: [] 
+3/27/2025 - 1:46:54 P - File reading successfully: data/products.json 
+3/27/2025 - 1:46:54 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"}] 
+3/27/2025 - 1:46:54 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:46:54 P - GET /orders: [] 
+3/27/2025 - 1:47:34 P - File reading successfully: data/products.json 
+3/27/2025 - 1:47:34 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"}] 
+3/27/2025 - 1:47:34 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:47:34 P - GET /orders: [] 
+3/27/2025 - 1:47:47 P - File reading successfully: data/products.json 
+3/27/2025 - 1:47:47 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"}] 
+3/27/2025 - 1:47:47 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:47:47 P - GET /orders: [] 
+3/27/2025 - 1:47:49 P - File reading successfully: data/products.json 
+3/27/2025 - 1:47:49 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"}] 
+3/27/2025 - 1:47:49 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:47:49 P - GET /orders: [] 
+3/27/2025 - 1:48:19 P - File reading successfully: data/products.json 
+3/27/2025 - 1:48:19 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"}] 
+3/27/2025 - 1:48:19 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:48:19 P - GET /orders: [] 
+3/27/2025 - 1:48:24 P - File reading successfully: data/products.json 
+3/27/2025 - 1:48:24 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"}] 
+3/27/2025 - 1:48:24 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:48:24 P - GET /orders: [] 
+3/27/2025 - 1:48:45 P - File reading successfully: data/products.json 
+3/27/2025 - 1:48:45 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"}] 
+3/27/2025 - 1:48:45 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:48:45 P - GET /orders: [] 
+3/27/2025 - 1:48:58 P - File reading successfully: data/products.json 
+3/27/2025 - 1:48:58 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"}] 
+3/27/2025 - 1:48:58 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:48:58 P - GET /orders: [] 
+3/27/2025 - 1:49:12 P - File reading successfully: data/products.json 
+3/27/2025 - 1:49:12 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"}] 
+3/27/2025 - 1:49:24 P - File reading successfully: data/products.json 
+3/27/2025 - 1:49:24 P - File reading successfully: data/products.json 
+3/27/2025 - 1:49:24 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"}] 
+3/27/2025 - 1:49:24 P - File update successfully 
+3/27/2025 - 1:49:24 P - POST /products - Product created successfully: {"id":2,"name":"XBOX","price":"200","stock":"100"} 
+3/27/2025 - 1:49:26 P - File reading successfully: data/products.json 
+3/27/2025 - 1:49:26 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"}] 
+3/27/2025 - 1:49:28 P - File reading successfully: data/products.json 
+3/27/2025 - 1:49:28 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"}] 
+3/27/2025 - 1:49:28 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:49:28 P - GET /orders: [] 
+3/27/2025 - 1:49:36 P - File reading successfully: data/products.json 
+3/27/2025 - 1:49:36 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"}] 
+3/27/2025 - 1:49:36 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:49:36 P - GET /orders: [] 
+3/27/2025 - 1:49:49 P - File reading successfully: data/products.json 
+3/27/2025 - 1:49:49 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"}] 
+3/27/2025 - 1:49:50 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:49:50 P - GET /orders: [] 
+3/27/2025 - 1:50:12 P - File reading successfully: data/products.json 
+3/27/2025 - 1:50:12 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"}] 
+3/27/2025 - 1:50:12 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:50:12 P - GET /orders: [] 
+3/27/2025 - 1:50:48 P - File reading successfully: data/products.json 
+3/27/2025 - 1:50:48 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"}] 
+3/27/2025 - 1:50:48 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:50:48 P - GET /orders: [] 
+3/27/2025 - 1:51:32 P - File reading successfully: data/products.json 
+3/27/2025 - 1:51:32 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"}] 
+3/27/2025 - 1:51:32 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:51:32 P - GET /orders: [] 
+3/27/2025 - 1:51:38 P - File reading successfully: data/products.json 
+3/27/2025 - 1:51:38 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"}] 
+3/27/2025 - 1:51:38 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:51:38 P - GET /orders: [] 
+3/27/2025 - 1:51:45 P - File reading successfully: data/products.json 
+3/27/2025 - 1:51:45 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"}] 
+3/27/2025 - 1:51:45 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:51:45 P - GET /orders: [] 
+3/27/2025 - 1:51:54 P - File reading successfully: data/products.json 
+3/27/2025 - 1:51:54 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"}] 
+3/27/2025 - 1:51:54 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:51:54 P - GET /orders: [] 
+3/27/2025 - 1:51:56 P - File reading successfully: data/products.json 
+3/27/2025 - 1:51:56 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"}] 
+3/27/2025 - 1:52:00 P - File reading successfully: data/products.json 
+3/27/2025 - 1:52:00 P - File reading successfully: data/products.json 
+3/27/2025 - 1:52:00 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"}] 
+3/27/2025 - 1:52:00 P - File update successfully 
+3/27/2025 - 1:52:00 P - POST /products - Product created successfully: {"id":3,"name":"PS5","price":"23","stock":"234"} 
+3/27/2025 - 1:52:02 P - File reading successfully: data/products.json 
+3/27/2025 - 1:52:02 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 1:52:11 P - File reading successfully: data/products.json 
+3/27/2025 - 1:52:11 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 1:52:16 P - File reading successfully: data/products.json 
+3/27/2025 - 1:52:16 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 1:52:52 P - File reading successfully: data/products.json 
+3/27/2025 - 1:52:52 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 1:52:52 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:52:52 P - GET /orders: [] 
+3/27/2025 - 1:53:05 P - File reading successfully: data/products.json 
+3/27/2025 - 1:53:05 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 1:53:05 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:53:05 P - GET /orders: [] 
+3/27/2025 - 1:53:07 P - File reading successfully: data/products.json 
+3/27/2025 - 1:53:07 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 1:53:07 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:53:07 P - GET /orders: [] 
+3/27/2025 - 1:53:39 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 1:53:39 P - File reading successfully: data/products.json 
+3/27/2025 - 1:53:39 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:53:39 P - GET /orders: [] 
+3/27/2025 - 1:53:53 P - File reading successfully: data/products.json 
+3/27/2025 - 1:53:53 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 1:53:53 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:53:53 P - GET /orders: [] 
+3/27/2025 - 1:53:55 P - File reading successfully: data/products.json 
+3/27/2025 - 1:53:55 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 1:53:55 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:53:55 P - GET /orders: [] 
+3/27/2025 - 1:54:17 P - File reading successfully: data/products.json 
+3/27/2025 - 1:54:17 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 1:54:17 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:54:17 P - GET /orders: [] 
+3/27/2025 - 1:54:50 P - File reading successfully: data/products.json 
+3/27/2025 - 1:54:50 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 1:54:50 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:54:50 P - GET /orders: [] 
+3/27/2025 - 1:55:09 P - File reading successfully: data/products.json 
+3/27/2025 - 1:55:09 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 1:55:09 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:55:09 P - GET /orders: [] 
+3/27/2025 - 1:56:32 P - File reading successfully: data/products.json 
+3/27/2025 - 1:56:32 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 1:56:32 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:56:32 P - GET /orders: [] 
+3/27/2025 - 1:57:11 P - File reading successfully: data/products.json 
+3/27/2025 - 1:57:11 P - GET /products: [{"id":1,"name":"PS5","price":"100","stock":"100"},{"id":2,"name":"XBOX","price":"200","stock":"100"},{"id":3,"name":"PS5","price":"23","stock":"234"}] 
+3/27/2025 - 1:57:11 P - File reading successfully: data/orders.json 
+3/27/2025 - 1:57:11 P - GET /orders: [] 

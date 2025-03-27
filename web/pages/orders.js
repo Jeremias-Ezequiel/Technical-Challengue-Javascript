@@ -39,7 +39,6 @@ orderSelect.addEventListener("change", (event) => {
   const { price } = products[position];
   optionInfo.price = price;
   newOrder.productId = position;
-  newOrder.total = price;
   showPrice(optionInfo.price, optionInfo.quantity);
 });
 
@@ -47,6 +46,7 @@ quantityProduct.addEventListener("input", (event) => {
   const quantity = event.target.value;
   optionInfo.quantity = quantity;
   newOrder.quantity = quantity;
+  console.log(optionInfo);
   showPrice(optionInfo.price, optionInfo.quantity);
 });
 
@@ -56,6 +56,14 @@ orderForm.addEventListener("submit", (event) => {
   if (!newOrder.isValid()) {
     alert("There are some input fields empty");
   }
+
+  fetch("http://localhost:4000/orders", {
+    method: "POST",
+    body: JSON.stringify(newOrder),
+  })
+    .then((res) => res.json())
+    .then((message) => console.log(message))
+    .catch((err) => console.error(err));
 });
 
 clientName.addEventListener("input", (event) => {

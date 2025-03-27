@@ -4,7 +4,7 @@ const infoProducts = document.getElementById("info-products");
 const infoOrders = document.getElementById("info-orders");
 const BASE_URL = "http://localhost:4000";
 
-const orderHeaders = ["Client", "Quantity", "Total"];
+const orderHeaders = ["Client", "Product Name", "Quantity", "Total"];
 const productHeaders = ["Name", "Price", "Stock"];
 
 // INDEX.JS
@@ -17,6 +17,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     showTable(products, infoProducts, productHeaders, "products");
     showTable(orders, infoOrders, orderHeaders, "orders", products);
   } catch (err) {
-    console.log("Error");
+    console.log("Error", err);
   }
 });
