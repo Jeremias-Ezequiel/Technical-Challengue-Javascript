@@ -310,3 +310,81 @@
 3/27/2025 - 9:00:07 A - POST /products - Product created successfully: {"id":1,"name":"PS5","price":12.2,"stock":10} 
 3/27/2025 - 9:00:46 A - Server listening on port http://localhost:4000 
 3/27/2025 - 9:00:55 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:13:08 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:13:38 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:13:51 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:14:53 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:15:10 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:15:23 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:16:10 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:16:32 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:17:16 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:18:36 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:20:31 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:20:36 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:21:13 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:21:24 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:22:09 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:22:38 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:23:58 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:24:04 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:29:06 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:29:48 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:29:55 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:30:05 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:31:30 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:31:43 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:31:59 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:32:06 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:32:09 A - File reading successfully: data/products.json 
+3/27/2025 - 9:32:49 A - File reading successfully: data/products.json 
+3/27/2025 - 9:32:49 A - File update successfully 
+3/27/2025 - 9:32:49 A - POST /products - Product created successfully: {"id":1,"name":"PS5","price":12.2,"stock":10} 
+3/27/2025 - 9:33:01 A - File reading successfully: data/products.json 
+3/27/2025 - 9:33:01 A - File update successfully 
+3/27/2025 - 9:33:01 A - POST /products - Product created successfully: {"id":2,"name":"PS4","price":9.2,"stock":4} 
+3/27/2025 - 9:33:23 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:33:48 A - File reading successfully: data/products.json 
+3/27/2025 - 9:34:02 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:34:04 A - File reading successfully: data/products.json 
+3/27/2025 - 9:35:12 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:35:30 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:36:07 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:36:09 A - File reading successfully: data/products.json 
+3/27/2025 - 9:36:22 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:36:23 A - File reading successfully: data/products.json 
+3/27/2025 - 9:37:06 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:37:16 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:37:24 A - File reading successfully: data/products.json 
+3/27/2025 - 9:38:20 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:39:01 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:39:06 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:39:26 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:40:25 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:41:02 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:42:24 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:42:50 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:43:00 A - File reading successfully: data/products.json 
+3/27/2025 - 9:43:00 A - GET /products: [{"id":1,"name":"PS5","price":12.2,"stock":10},{"id":2,"name":"PS4","price":9.2,"stock":4}] 
+3/27/2025 - 9:43:34 A - File reading successfully: data/products.json 
+3/27/2025 - 9:43:47 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:43:59 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:44:01 A - File reading successfully: data/products.json 
+3/27/2025 - 9:44:19 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:44:20 A - File reading successfully: data/products.json 
+3/27/2025 - 9:44:37 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:44:40 A - File reading successfully: data/products.json 
+3/27/2025 - 9:44:52 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:45:38 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:45:39 A - File reading successfully: data/products.json 
+3/27/2025 - 9:45:53 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:45:56 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:45:58 A - File reading successfully: data/products.json 
+3/27/2025 - 9:45:58 A - File update successfully 
+3/27/2025 - 9:45:58 A - /PUT /products/:i - Update Successfully {"id":1,"name":"Test update","price":999,"stock":11} 
+3/27/2025 - 9:46:30 A - Server listening on port http://localhost:4000 
+3/27/2025 - 9:46:31 A - File reading successfully: data/products.json 
+3/27/2025 - 9:46:31 A - File update successfully 
+3/27/2025 - 9:46:31 A - /PUT /products/:i - Update Successfully {"id":1,"name":"Test update","price":999,"stock":11} 
+3/27/2025 - 9:46:34 A - File reading successfully: data/products.json 
+3/27/2025 - 9:46:34 A - GET /products: [{"id":1,"name":"Test update","price":999,"stock":11},{"id":2,"name":"PS4","price":9.2,"stock":4}] 

@@ -153,6 +153,50 @@ const server = http.createServer((req, res) => {
           break;
         }
       }
+    case "PUT": {
+      // GET index at the URL
+      const index = parseInt(url.split("/")[2]);
+      const newUrl = url.slice(0, url.length - 1);
+
+      if (newUrl === "/products/") {
+        let body = "";
+        // Read the data
+        req.on("data", (chunk) => {
+          body += chunk.toString();
+        });
+
+        req.on("end", async () => {
+          const productsArr = await loadFile(productsPath);
+          const { name, price, stock } = JSON.parse(body);
+
+          //Search the product
+          const indexProduct = productsArr.findIndex(
+            (product) => product.id === index
+          );
+
+          if (indexProduct === -1) {
+            res.statusCode = 400;
+            return res.end(
+              JSON.stringify({ error: "Index not found", code: 400 })
+            );
+          }
+
+          productsArr[indexProduct].name = name;
+          productsArr[indexProduct].price = price;
+          productsArr[indexProduct].stock = stock;
+
+          await updateFile(productsPath, productsArr);
+          res.statusCode = 200;
+          Log(
+            `/PUT /products/:i - Update Successfully ${JSON.stringify(
+              productsArr[indexProduct]
+            )}`
+          );
+          return res.end(JSON.stringify(productsArr[indexProduct]));
+        });
+      }
+      break;
+    }
   }
 });
 
