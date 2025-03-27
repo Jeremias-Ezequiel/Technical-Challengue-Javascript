@@ -5,7 +5,7 @@ import { showTable } from "../utils/tableUtils.js";
 const orderForm = document.getElementById("orderForm");
 const containerOrder = document.getElementById("pageOrders");
 const totalPrice = document.getElementById("totalPrice");
-const orderSelect = document.getElementById("orderSelect");
+const nameProductSelect = document.getElementById("orderSelect");
 const quantityProduct = document.getElementById("quantity");
 const clientName = document.getElementById("client");
 
@@ -34,11 +34,20 @@ let optionInfo = {
   quantity: 1,
 };
 
-orderSelect.addEventListener("change", (event) => {
-  const { value: position } = event.target;
-  const { price } = products[position];
-  optionInfo.price = price;
-  newOrder.productId = position;
+nameProductSelect.addEventListener("change", (event) => {
+  const selectedId = parseInt(event.target.value);
+  if (selectedId === "-") return;
+
+  const selectedProduct = products.find((product) => product.id === selectedId);
+
+  if (!selectedProduct) {
+    console.error("Product not found");
+    return;
+  }
+
+  optionInfo.price = selectedProduct.price;
+  newOrder.productId = selectedId;
+
   showPrice(optionInfo.price, optionInfo.quantity);
 });
 
@@ -53,6 +62,7 @@ quantityProduct.addEventListener("input", (event) => {
 orderForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
+  console.log(newOrder);
   if (!newOrder.isValid()) {
     alert("There are some input fields empty");
   }
@@ -73,5 +83,6 @@ clientName.addEventListener("input", (event) => {
 
 function showPrice(price, quantity) {
   let total = price * quantity;
+  newOrder.total = total;
   totalPrice.textContent = `$${total.toFixed(2)}`;
 }
