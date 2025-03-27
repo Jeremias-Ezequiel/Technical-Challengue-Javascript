@@ -23,36 +23,63 @@ Step by step intructions to configure the local project.
     ```bash
     npm install
     ```
-3. Init server
-    ```bash
-    npm start
+
+## To use API 
+
+1. Enter the folder
+    ```bash 
+    cd api
     ```
+
+2. Execute the script
+    ```bash
+    npm run dev
+    ```
+
+## To use web
+
+1. Enter the folder 
+    ```bash
+    cd web
+    ```
+
+2. Open the `index.html` file with live server or open with the browser
 
 ---
 
 ## Use 
 
-- To create a product, fill the form in the products page.
-- To create an order, fill the form in the order page.
+**To create a product**:
+1. Open 'products.html' file in the browser
+2. fill the form in the products page.
+
+**To create an order**:
+1. Open 'orders.html' file in the browser 
+2. fill the form in the order page.
 
 ---
 
 ## Project Structure
-
+```
 /proyecto
 │
-├── /backend
-│   ├── server.js
-│   ├── /routes
-│   └── /models
+├── /api
+│   ├── indexjs
+│   ├── /models
+│   ├── /log
+│   ├── /utils
+│   └── /data
 │
-├── /frontend
+├── /web
 │   ├── index.html
-│   ├── app.js
-│   └── styles.css
+│   ├── /models
+│   ├── /pages
+│   ├── /utils
+│   ├── app.css
+│   └── index.js
 │
-├── README.md
-└── package.json
+└── README.md
+```
 
 ---
 
